@@ -1,0 +1,324 @@
+{
+ "repo": "calcuis/wan-1.3b-gguf",
+ "retrieved": "2026-09-13",
+ "sha": "0652f175f44055eb60cca26dd7cd89c14abe22ce",
+ "gated": false,
+ "private": false,
+ "license": "apache-2.0",
+ "license_name": null,
+ "license_link": null,
+ "pipeline_tag": "text-to-video",
+ "lastModified": "2025-08-08T01:26:22.000Z",
+ "files": [
+  {
+   "path": ".gitattributes",
+   "size": 5707,
+   "sha256": null
+  },
+  {
+   "path": "README.md",
+   "size": 3213,
+   "sha256": null
+  },
+  {
+   "path": "pig_wan_vae_fp32-f16.gguf",
+   "size": 253875904,
+   "sha256": "290e463b9d6680146cfd06e5740adb918b239ac8aef1f64f9d4d35fa11747bcd"
+  },
+  {
+   "path": "samples\\ComfyUI_00001_.webp",
+   "size": 811818,
+   "sha256": "bf327650c25be8de6b92e37c2c4b7a23a94ded172d34ad3b9c90c888cf64857d"
+  },
+  {
+   "path": "samples\\ComfyUI_00002_.webp",
+   "size": 377258,
+   "sha256": "75f82d40dc4c2835141fa2e25b90221aa29edc7fc57fed069247662d0dc2e34d"
+  },
+  {
+   "path": "samples\\ComfyUI_00003_.webp",
+   "size": 313428,
+   "sha256": "fa15f481c775094b03739678e979dce4de10b59950a7dfabf113aee3af687bdf"
+  },
+  {
+   "path": "samples\\ComfyUI_00004_.webp",
+   "size": 496424,
+   "sha256": "08ca4c3d1cf863041a82416a5c4e88387ca6847df4d6954ccf83e6a8fbfe4e33"
+  },
+  {
+   "path": "samples\\ComfyUI_00005_.webp",
+   "size": 383030,
+   "sha256": "4d32b15a6739b7becbb4a1e98b78120a8ceaba5019cfc1c38c3bc329c212949f"
+  },
+  {
+   "path": "samples\\ComfyUI_00006_.webp",
+   "size": 553036,
+   "sha256": "01766f60000a6580c39a2b05bc47440b5e154268f73fb6d6c124e57d3ca5df25"
+  },
+  {
+   "path": "umt5-xxl-encoder-q4_k_m.gguf",
+   "size": 3655145312,
+   "sha256": "17cf97a5bbbc60a646d6105b832b6f657ce904a8a1ad970e4b59df0c67584a40"
+  },
+  {
+   "path": "wan2.1-fun-control-1.3b-q4_0.gguf",
+   "size": 1012323968,
+   "sha256": "20b7ff71fd5ae13928d26409b61491f5252bd9d2d2d66094ab4e9491dda097be"
+  },
+  {
+   "path": "wan2.1-fun-control-1.3b-q5_0.gguf",
+   "size": 1204016768,
+   "sha256": "265904b74147c7c587c461a3929552938a7382fa767e2580a4e0c8536beb2368"
+  },
+  {
+   "path": "wan2.1-fun-control-1.3b-q8_0.gguf",
+   "size": 1753290368,
+   "sha256": "85cf2001b7371795b4c512e103b0f1f399ce9fa124799e397ea614190d968c58"
+  },
+  {
+   "path": "wan2.1-fun-inpaint-1.3b-q4_0.gguf",
+   "size": 1012029056,
+   "sha256": "7db78ffef759efb6ee69b2d1cf81ed781b73f7c3f40e4c48980002cad5caf6cc"
+  },
+  {
+   "path": "wan2.1-fun-inpaint-1.3b-q5_0.gguf",
+   "size": 1203721856,
+   "sha256": "26111485ab59b9879cd3655d5792615103d816755d23095e65b976b2d486a93c"
+  },
+  {
+   "path": "wan2.1-fun-inpaint-1.3b-q8_0.gguf",
+   "size": 1752995456,
+   "sha256": "62549b189d2a21e500004ec4427065c6562210ea2d62ec44a05b1786c2c090b1"
+  },
+  {
+   "path": "wan2.1-v2-vace-1.3b-q4_0.gguf",
+   "size": 1347493664,
+   "sha256": "b3bed1b1c7d62e78a87ed35ef85823913882dbe3392eee8b1f248d24837143a2"
+  },
+  {
+   "path": "wan2.1-v2-vace-1.3b-q4_1.gguf",
+   "size": 1441644320,
+   "sha256": "b5b1ff807689c86a29050920334097ded6d36fb471daecc6b43392fc85cc3db0"
+  },
+  {
+   "path": "wan2.1-v2-vace-1.3b-q5_0.gguf",
+   "size": 1613209376,
+   "sha256": "7e33d4d8d30c2834e6c0e3f1e03ff9a4dda5d552110e9eacb5d8fac0f31e8943"
+  },
+  {
+   "path": "wan2.1-v2-vace-1.3b-q5_1.gguf",
+   "size": 1707360032,
+   "sha256": "8c55b90fc1064ab7fb837b12f12c3bf838d19400b7638b986dfeb8e041883bd8"
+  },
+  {
+   "path": "wan2.1-v2-vace-1.3b-q6_k.gguf",
+   "size": 1856825120,
+   "sha256": "27a33c0085573ef338daf294790d4f1ffc6b599484a013fc13b530bc427bab3c"
+  },
+  {
+   "path": "wan2.1-v2-vace-1.3b-q8_0.gguf",
+   "size": 2371649312,
+   "sha256": "9e2cd02244f0eb9920c8330f6ab3a91f2dd100d9191f15c343d149767b20c91d"
+  },
+  {
+   "path": "wan2.1-v3-vace-1.3b-q4_0.gguf",
+   "size": 1346314016,
+   "sha256": "c9d2ad33427cef0e485c0c32b105c3cca8a33f6bfd8249b41b9685756aed4a74"
+  },
+  {
+   "path": "wan2.1-v3-vace-1.3b-q4_1.gguf",
+   "size": 1440268064,
+   "sha256": "d98a5f660f3b6ef738961e3b02f37f6a2a2dd90b1ae28f53b6dab3d91af37a34"
+  },
+  {
+   "path": "wan2.1-v3-vace-1.3b-q5_0.gguf",
+   "size": 1612029728,
+   "sha256": "1df945967bf2df7a4a12042e4a15c3dbd527b7da10f37eed255f779f04770787"
+  },
+  {
+   "path": "wan2.1-v3-vace-1.3b-q5_1.gguf",
+   "size": 1705983776,
+   "sha256": "f4c715a42b98ccb01da7e1a79e453db0a53388c67d99bd0de25c559637545913"
+  },
+  {
+   "path": "wan2.1-v3-vace-1.3b-q6_k.gguf",
+   "size": 1855448864,
+   "sha256": "1b8143fe6441df699d83d1bd6952d25e479cf1f2f3a6f91927ce571be07efa48"
+  },
+  {
+   "path": "wan2.1-v3-vace-1.3b-q8_0.gguf",
+   "size": 2370469664,
+   "sha256": "ac0dcf0f1dd271352be972ce4b425e994a061cc0c650410dcd8d9fdf7f4940dc"
+  },
+  {
+   "path": "wan2.1-vace-1.3b-bf16.gguf",
+   "size": 4362157760,
+   "sha256": "362f0fd57e6a0fdf7402b6458388336022561868d3cb7f1d4631a06d46cb1c2e"
+  },
+  {
+   "path": "wan2.1-vace-1.3b-f16.gguf",
+   "size": 4362157760,
+   "sha256": "865f522463eb0145e77addc29fc86ae15fc01ba8100fdf5aa2e0c26d1746b4ce"
+  },
+  {
+   "path": "wan2.1-vace-1.3b-q2_k.gguf",
+   "size": 829775552,
+   "sha256": "65c3e25100b3886a66f16eca0e8f9062e997f33e47d929197b7212750d6f1b52"
+  },
+  {
+   "path": "wan2.1-vace-1.3b-q3_k_l.gguf",
+   "size": 1238514368,
+   "sha256": "983cdcf4e9c9289fb0df79ecdd66bbf17fe317f9f9932b39700dc9a31c643daf"
+  },
+  {
+   "path": "wan2.1-vace-1.3b-q3_k_m.gguf",
+   "size": 1135147712,
+   "sha256": "2c866f82005b6fb0a69668383cc3fccf3160d6c17c358fe045152a44725d9c58"
+  },
+  {
+   "path": "wan2.1-vace-1.3b-q3_k_s.gguf",
+   "size": 1024104128,
+   "sha256": "cac0745d29fabb82c4d7f87bec94f2602ee8dce2f9a32a32760256d95fe6bf6e"
+  },
+  {
+   "path": "wan2.1-vace-1.3b-q4_0.gguf",
+   "size": 1345134272,
+   "sha256": "985b0adb23a32dd7c0ed008d22754a38cb7b3f076fb1014586f30d74134e8556"
+  },
+  {
+   "path": "wan2.1-vace-1.3b-q4_1.gguf",
+   "size": 1439284928,
+   "sha256": "8ac5e334bd2af9b7e9e8ec8e0926c819f33c0be66db6079cb2832bb209df2dbf"
+  },
+  {
+   "path": "wan2.1-vace-1.3b-q4_k_m.gguf",
+   "size": 1520837312,
+   "sha256": "bee9f9289e98b1f9a0a68c791228f9286d1fccfdd1408bc3a13be727572b22ab"
+  },
+  {
+   "path": "wan2.1-vace-1.3b-q4_k_s.gguf",
+   "size": 1385021120,
+   "sha256": "b0722d006202138350179cf798b57f66227e9f9cdb345d86208d15d164eb31c6"
+  },
+  {
+   "path": "wan2.1-vace-1.3b-q5_0.gguf",
+   "size": 1610849984,
+   "sha256": "e0f620fef5afeda727f1ae36fbd5957ce3ec96692a259d1eab1594fc7493204f"
+  },
+  {
+   "path": "wan2.1-vace-1.3b-q5_1.gguf",
+   "size": 1705000640,
+   "sha256": "e544968c237f1e2a21d98e5005f3558cb1eb4d776ad0aec8cc28efeb7ad6a022"
+  },
+  {
+   "path": "wan2.1-vace-1.3b-q5_k_m.gguf",
+   "size": 1682596544,
+   "sha256": "6c485e0ba507e643627689802557f4988261da525f88c6583c4fee7c285000b7"
+  },
+  {
+   "path": "wan2.1-vace-1.3b-q5_k_s.gguf",
+   "size": 1572142784,
+   "sha256": "ce339060467eae263910f86e7d8ca30cea08129e3fe153a577752b108f62d24b"
+  },
+  {
+   "path": "wan2.1-vace-1.3b-q6_k.gguf",
+   "size": 1854465728,
+   "sha256": "47d07d4c6c316ba8c5f2c3e3ade1eea831d09104302263ea346b824e428c89df"
+  },
+  {
+   "path": "wan2.1-vace-1.3b-q8_0.gguf",
+   "size": 2369289920,
+   "sha256": "28eac76977716fc0ae5a63ea7082bf809ef7ce94c56a0df3c0ca5f228b328281"
+  },
+  {
+   "path": "wan2.1_t2v_1.3b-bf16.gguf",
+   "size": 2892069088,
+   "sha256": "a17c55fe41296c5c3533a5ee8934994fbcce1b1a783ceaec27ea5c7850ce0249"
+  },
+  {
+   "path": "wan2.1_t2v_1.3b-f16.gguf",
+   "size": 2892069088,
+   "sha256": "beca46b8167947b0d5f78169da7383d052e9fff800cacd8d1f4a224414d8a214"
+  },
+  {
+   "path": "wan2.1_t2v_1.3b-q2_k.gguf",
+   "size": 579221728,
+   "sha256": "1d72032c250ce0b231a113497dd220c2f1d259dd141be6a495cf866523bfd7c7"
+  },
+  {
+   "path": "wan2.1_t2v_1.3b-q3_k_m.gguf",
+   "size": 780443872,
+   "sha256": "45b72a76b34acfe35c8997b9b04756518bfb8a5ed10fc19465fd4da76dcf808e"
+  },
+  {
+   "path": "wan2.1_t2v_1.3b-q4_0.gguf",
+   "size": 916895968,
+   "sha256": "da5e578d3ca7ef377f8258a1dc9a6ab176c4d2de7595c5f78d62a234e2cf13ef"
+  },
+  {
+   "path": "wan2.1_t2v_1.3b-q4_1.gguf",
+   "size": 978090208,
+   "sha256": "da8c7566383bc2f8defd108bdb72609e31a566541792ffb74d297ca9ba34663c"
+  },
+  {
+   "path": "wan2.1_t2v_1.3b-q4_k_m.gguf",
+   "size": 1034031328,
+   "sha256": "f3c1a3fb984d49d3963cc4a93d4f5103deef5909eb5e948513fb6c6d582a350e"
+  },
+  {
+   "path": "wan2.1_t2v_1.3b-q5_0.gguf",
+   "size": 1090894048,
+   "sha256": "9b635a5d11fd1e04f06a6669275cb17ada18211608ad95196fc9ffceb9027a63"
+  },
+  {
+   "path": "wan2.1_t2v_1.3b-q5_1.gguf",
+   "size": 1152088288,
+   "sha256": "609d47835104284b8e60ee3046438404ab63494887db9624d7525502774e47a0"
+  },
+  {
+   "path": "wan2.1_t2v_1.3b-q5_k_m.gguf",
+   "size": 1138725088,
+   "sha256": "34af15434025fc18fa9f35237e70bc4e6af184c117b29cea99c57280cbed7efd"
+  },
+  {
+   "path": "wan2.1_t2v_1.3b-q6_k.gguf",
+   "size": 1249962208,
+   "sha256": "94017946ce93a112ac0c62978ed270a61694d4e8e1ec9fbcf65c41f61440de58"
+  },
+  {
+   "path": "wan2.1_t2v_1.3b-q8_0.gguf",
+   "size": 1587083488,
+   "sha256": "e6db35de304f0b5b4b4689d41b95fa853fff747581bea75adac25939a73dbead"
+  },
+  {
+   "path": "workflow-wan-fun-control.json",
+   "size": 14611,
+   "sha256": null
+  },
+  {
+   "path": "workflow-wan-fun-inpaint.json",
+   "size": 13835,
+   "sha256": null
+  },
+  {
+   "path": "workflow-wan-t2v-1.3b-gguf.json",
+   "size": 4621,
+   "sha256": null
+  },
+  {
+   "path": "workflow-wan-vace-i2v.json",
+   "size": 13757,
+   "sha256": null
+  },
+  {
+   "path": "workflow-wan-vace-t2v.json",
+   "size": 13572,
+   "sha256": null
+  },
+  {
+   "path": "workflow-wan-vace-v2v.json",
+   "size": 13694,
+   "sha256": null
+  }
+ ]
+}

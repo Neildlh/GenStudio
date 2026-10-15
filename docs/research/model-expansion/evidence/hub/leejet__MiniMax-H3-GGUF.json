@@ -1,0 +1,69 @@
+{
+ "repo": "leejet/MiniMax-H3-GGUF",
+ "retrieved": "2026-09-13",
+ "sha": "d9c4c6312b4728a68a15a35626d84775a6523783",
+ "gated": false,
+ "private": false,
+ "license": null,
+ "license_name": null,
+ "license_link": null,
+ "pipeline_tag": "image-to-video",
+ "lastModified": "2026-08-30T07:58:34.000Z",
+ "files": [
+  {
+   "path": ".gitattributes",
+   "size": 2065,
+   "sha256": null
+  },
+  {
+   "path": "README.md",
+   "size": 1376,
+   "sha256": null
+  },
+  {
+   "path": "assets/example.mp4",
+   "size": 1354429,
+   "sha256": "d4cfa66036e31cadb54e82ea421f97538f202e2f9127fd2689babdfbf779faf2"
+  },
+  {
+   "path": "minimax_h3_fl2v_gguf.json",
+   "size": 17225,
+   "sha256": null
+  },
+  {
+   "path": "minimax_h3_fl2va-Q4_K_M.gguf",
+   "size": 18779848448,
+   "sha256": "a25ee3184dd56e7fc5c8db1508d2e48a7e3c92919b516935c6059e4228e16107"
+  },
+  {
+   "path": "minimax_h3_fl2va_pruned-Q4_K_M.gguf",
+   "size": 11420663904,
+   "sha256": "dd948e08ad0ba3c71bd42f368e283dd82e790f5122a63b276e22a3e0283d0c10"
+  },
+  {
+   "path": "minimax_h3_ref2va-Q4_K_M.gguf",
+   "size": 18779848448,
+   "sha256": "fdaecd3e73cf70a866184e49958c7f17055c5294252921ceac7dc459ce6be11e"
+  },
+  {
+   "path": "minimax_h3_ref2va_pruned-Q2_K_M.gguf",
+   "size": 6724190304,
+   "sha256": "792651930a5d1a2f4b4f55d9e3c7222d2c12d8a300272bbf0fec6b13fa695d6e"
+  },
+  {
+   "path": "minimax_h3_ref2va_pruned-Q4_K_M.gguf",
+   "size": 11420663904,
+   "sha256": "9ca1aef9f4609a56c2c751484013e1b20fe352f892122e5ab0a428fb95a7956e"
+  },
+  {
+   "path": "qwen3vl_32b_minimax_h3-Q2_K_M.gguf",
+   "size": 13102161024,
+   "sha256": "a8ccadccd57ef34c838ffb8a7da8368bb554721b2760274a1d3b0df63960b997"
+  },
+  {
+   "path": "qwen3vl_32b_minimax_h3-Q4_K_M.gguf",
+   "size": 18218065024,
+   "sha256": "11e6efe70a57ce7f4838c47bdbd1a1c4b8ce10e2b7747f1b065990b70f4b05fc"
+  }
+ ]
+}

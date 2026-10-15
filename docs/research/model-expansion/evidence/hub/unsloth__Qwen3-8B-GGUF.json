@@ -1,0 +1,18 @@
+{
+ "repo": "unsloth/Qwen3-8B-GGUF",
+ "retrieved": "2026-09-15",
+ "sha": "a6adef130ffb23ddaf1a62fec9dced968c9bc482",
+ "gated": false,
+ "private": false,
+ "license": "apache-2.0",
+ "license_name": null,
+ "license_link": "https://huggingface.co/Qwen/Qwen3-8B/blob/main/LICENSE",
+ "pipeline_tag": "text-generation",
+ "files": [
+  {
+   "path": "Qwen3-8B-Q4_K_M.gguf",
+   "size": 5027784512,
+   "sha256": "120307ba529eb2439d6c430d94104dabd578497bc7bfe7e322b5d9933b449bd4"
+  }
+ ]
+}

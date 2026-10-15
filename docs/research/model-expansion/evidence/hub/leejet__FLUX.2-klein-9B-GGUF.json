@@ -1,0 +1,18 @@
+{
+ "repo": "leejet/FLUX.2-klein-9B-GGUF",
+ "retrieved": "2026-09-15",
+ "sha": "cc588497a95ffc2937ebbd6b9b3916a11ada6e5b",
+ "gated": false,
+ "private": false,
+ "license": "Not declared by the repository metadata; review the model card and base-model terms",
+ "license_name": null,
+ "license_link": null,
+ "pipeline_tag": "text-to-image",
+ "files": [
+  {
+   "path": "flux-2-klein-9b-Q4_0.gguf",
+   "size": 5616208032,
+   "sha256": "a7e77afa96871d16679ff7b949bd25f20c8179f219c4b662cac91e81ed99b944"
+  }
+ ]
+}

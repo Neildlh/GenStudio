@@ -1,0 +1,12 @@
+.DS_Store
+.build/
+build/
+dist/
+DerivedData/
+.vendor/
+*.xcuserstate
+xcuserdata/
+/n
+
+EngineKit/.integration-models/
+EngineKit/.integration-library/

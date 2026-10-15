@@ -1,0 +1,64 @@
+{
+ "repo": "second-state/stable-diffusion-v1-5-GGUF",
+ "retrieved": "2026-09-13",
+ "sha": "031b5f5df991f511b3f5fa8fed6d99048ababb69",
+ "gated": false,
+ "private": false,
+ "license": "creativeml-openrail-m",
+ "license_name": null,
+ "license_link": null,
+ "pipeline_tag": "text-to-image",
+ "lastModified": "2024-11-22T06:47:59.000Z",
+ "files": [
+  {
+   "path": ".gitattributes",
+   "size": 2098,
+   "sha256": null
+  },
+  {
+   "path": "README.md",
+   "size": 3327,
+   "sha256": null
+  },
+  {
+   "path": "stable-diffusion-v1-5-pruned-emaonly-Q4_0.gguf",
+   "size": 1566768416,
+   "sha256": "b8944e9fe0b69b36ae1b5bb0185b3a7b8ef14347fe0fa9af6c64c4829022261f"
+  },
+  {
+   "path": "stable-diffusion-v1-5-pruned-emaonly-Q4_1.gguf",
+   "size": 1591364896,
+   "sha256": "2c2dae3edccb8b03e3b9afa00b2e1b30fde5273abfc0f1d950449ea34a23b61a"
+  },
+  {
+   "path": "stable-diffusion-v1-5-pruned-emaonly-Q5_0.gguf",
+   "size": 1615967904,
+   "sha256": "5d0dce31ee69e5c2e8f0e63f42e6da2ab932ce3b7c8799e3dd85c86c7337dff1"
+  },
+  {
+   "path": "stable-diffusion-v1-5-pruned-emaonly-Q5_1.gguf",
+   "size": 1640564256,
+   "sha256": "b1342857c5d5ba796b7f4e8b23ed45981afe71e3ce440f226b51e7df5d9c1dd9"
+  },
+  {
+   "path": "stable-diffusion-v1-5-pruned-emaonly-Q8_0.gguf",
+   "size": 1763578176,
+   "sha256": "d0555243938c62faeefb4ac93f6c7a053ad373a4290c5256bce229aeb193bf94"
+  },
+  {
+   "path": "stable-diffusion-v1-5-pruned-emaonly-f16.gguf",
+   "size": 2132586944,
+   "sha256": "da017009aa86a3f46468857d95833435fe55e4a2856afab76ba7722ef8ee4d8b"
+  },
+  {
+   "path": "stable-diffusion-v1-5-pruned-emaonly-f32.gguf",
+   "size": 4265059488,
+   "sha256": "52c7ca39d8d48d6f44fa4ff2c44569f3c924d92311108cb38492958350d48ff8"
+  },
+  {
+   "path": "v1-5-pruned-emaonly.safetensors",
+   "size": 4265146304,
+   "sha256": "6ce0161689b3853acaa03779ec93eafe75a02f4ced659bee03f50797806fa2fa"
+  }
+ ]
+}

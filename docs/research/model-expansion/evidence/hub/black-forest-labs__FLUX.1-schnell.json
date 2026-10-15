@@ -1,0 +1,154 @@
+{
+ "repo": "black-forest-labs/FLUX.1-schnell",
+ "retrieved": "2026-09-13",
+ "sha": "741f7c3ce8b383c54771c7003378a50191e9efe9",
+ "gated": "auto",
+ "private": false,
+ "license": "apache-2.0",
+ "license_name": null,
+ "license_link": null,
+ "pipeline_tag": "text-to-image",
+ "lastModified": "2024-08-16T14:37:56.000Z",
+ "files": [
+  {
+   "path": ".gitattributes",
+   "size": 1668,
+   "sha256": null
+  },
+  {
+   "path": "README.md",
+   "size": 3681,
+   "sha256": null
+  },
+  {
+   "path": "ae.safetensors",
+   "size": 335304388,
+   "sha256": "afc8e28272cd15db3919bacdb6918ce9c1ed22e96cb12c4d5ed0fba823529e38"
+  },
+  {
+   "path": "flux1-schnell.safetensors",
+   "size": 23782506688,
+   "sha256": "9403429e0052277ac2a87ad800adece5481eecefd9ed334e1f348723621d2a0a"
+  },
+  {
+   "path": "model_index.json",
+   "size": 536,
+   "sha256": null
+  },
+  {
+   "path": "scheduler/scheduler_config.json",
+   "size": 274,
+   "sha256": null
+  },
+  {
+   "path": "schnell_grid.jpeg",
+   "size": 1671111,
+   "sha256": "5bff488da88933a529825e4fd72e10c3824e22508dc1d6f36b49850fa517ac44"
+  },
+  {
+   "path": "text_encoder/config.json",
+   "size": 613,
+   "sha256": null
+  },
+  {
+   "path": "text_encoder/model.safetensors",
+   "size": 246144352,
+   "sha256": "893d67a23f4693ed42cdab4cbad7fe3e727cf59609c40da28a46b5470f9ed082"
+  },
+  {
+   "path": "text_encoder_2/config.json",
+   "size": 782,
+   "sha256": null
+  },
+  {
+   "path": "text_encoder_2/model-00001-of-00002.safetensors",
+   "size": 4994582224,
+   "sha256": "ec87bffd1923e8b2774a6d240c922a41f6143081d52cf83b8fe39e9d838c893e"
+  },
+  {
+   "path": "text_encoder_2/model-00002-of-00002.safetensors",
+   "size": 4530066360,
+   "sha256": "a5640855b301fcdbceddfa90ae8066cd9414aff020552a201a255ecf2059da00"
+  },
+  {
+   "path": "text_encoder_2/model.safetensors.index.json",
+   "size": 19885,
+   "sha256": null
+  },
+  {
+   "path": "tokenizer/merges.txt",
+   "size": 524619,
+   "sha256": null
+  },
+  {
+   "path": "tokenizer/special_tokens_map.json",
+   "size": 588,
+   "sha256": null
+  },
+  {
+   "path": "tokenizer/tokenizer_config.json",
+   "size": 705,
+   "sha256": null
+  },
+  {
+   "path": "tokenizer/vocab.json",
+   "size": 1059962,
+   "sha256": null
+  },
+  {
+   "path": "tokenizer_2/special_tokens_map.json",
+   "size": 2543,
+   "sha256": null
+  },
+  {
+   "path": "tokenizer_2/spiece.model",
+   "size": 791656,
+   "sha256": "d60acb128cf7b7f2536e8f38a5b18a05535c9e14c7a355904270e15b0945ea86"
+  },
+  {
+   "path": "tokenizer_2/tokenizer.json",
+   "size": 2424235,
+   "sha256": null
+  },
+  {
+   "path": "tokenizer_2/tokenizer_config.json",
+   "size": 20817,
+   "sha256": null
+  },
+  {
+   "path": "transformer/config.json",
+   "size": 321,
+   "sha256": null
+  },
+  {
+   "path": "transformer/diffusion_pytorch_model-00001-of-00003.safetensors",
+   "size": 9962580296,
+   "sha256": "9b633dbe87316385c5b1c262bd4b5a01e3d955170661d63dcec8a01e89c0d820"
+  },
+  {
+   "path": "transformer/diffusion_pytorch_model-00002-of-00003.safetensors",
+   "size": 9949328904,
+   "sha256": "58b4434078f0c2567ddc54e3b5cbf39626ab55fbd9d5c22956e183668f535dec"
+  },
+  {
+   "path": "transformer/diffusion_pytorch_model-00003-of-00003.safetensors",
+   "size": 3870584832,
+   "sha256": "e2cbc25471ed5186e69a9b51098300cb2f612556453e38a372c851a220ed238d"
+  },
+  {
+   "path": "transformer/diffusion_pytorch_model.safetensors.index.json",
+   "size": 120822,
+   "sha256": null
+  },
+  {
+   "path": "vae/config.json",
+   "size": 774,
+   "sha256": null
+  },
+  {
+   "path": "vae/diffusion_pytorch_model.safetensors",
+   "size": 167666902,
+   "sha256": "f5b59a26851551b67ae1fe58d32e76486e1e812def4696a4bea97f16604d40a3"
+  }
+ ]
+}

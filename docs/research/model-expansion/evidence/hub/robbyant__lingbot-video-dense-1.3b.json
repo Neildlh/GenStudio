@@ -1,0 +1,189 @@
+{
+ "repo": "robbyant/lingbot-video-dense-1.3b",
+ "retrieved": "2026-09-13",
+ "sha": "f9789a7d9b4772a47aba62d4eb5282ddefd1da21",
+ "gated": false,
+ "private": false,
+ "license": "apache-2.0",
+ "license_name": null,
+ "license_link": null,
+ "pipeline_tag": null,
+ "lastModified": "2026-07-08T16:47:29.000Z",
+ "files": [
+  {
+   "path": ".gitattributes",
+   "size": 1519,
+   "sha256": null
+  },
+  {
+   "path": "README.md",
+   "size": 11291,
+   "sha256": null
+  },
+  {
+   "path": "model_index.json",
+   "size": 489,
+   "sha256": null
+  },
+  {
+   "path": "model_index.json.bak_lingbot_video_diffusers",
+   "size": 508,
+   "sha256": null
+  },
+  {
+   "path": "processor/README.md",
+   "size": 7078,
+   "sha256": null
+  },
+  {
+   "path": "processor/chat_template.json",
+   "size": 5502,
+   "sha256": null
+  },
+  {
+   "path": "processor/config.json",
+   "size": 1505,
+   "sha256": null
+  },
+  {
+   "path": "processor/configuration.json",
+   "size": 73,
+   "sha256": null
+  },
+  {
+   "path": "processor/generation_config.json",
+   "size": 269,
+   "sha256": null
+  },
+  {
+   "path": "processor/merges.txt",
+   "size": 1671839,
+   "sha256": null
+  },
+  {
+   "path": "processor/preprocessor_config.json",
+   "size": 390,
+   "sha256": null
+  },
+  {
+   "path": "processor/tokenizer.json",
+   "size": 7032403,
+   "sha256": null
+  },
+  {
+   "path": "processor/tokenizer_config.json",
+   "size": 10868,
+   "sha256": null
+  },
+  {
+   "path": "processor/video_preprocessor_config.json",
+   "size": 385,
+   "sha256": null
+  },
+  {
+   "path": "processor/vocab.json",
+   "size": 2776833,
+   "sha256": null
+  },
+  {
+   "path": "scheduler/scheduler_config.json",
+   "size": 128,
+   "sha256": null
+  },
+  {
+   "path": "scheduling_flow_unipc.py",
+   "size": 33681,
+   "sha256": null
+  },
+  {
+   "path": "text_encoder/README.md",
+   "size": 7078,
+   "sha256": null
+  },
+  {
+   "path": "text_encoder/chat_template.json",
+   "size": 5502,
+   "sha256": null
+  },
+  {
+   "path": "text_encoder/config.json",
+   "size": 1505,
+   "sha256": null
+  },
+  {
+   "path": "text_encoder/configuration.json",
+   "size": 73,
+   "sha256": null
+  },
+  {
+   "path": "text_encoder/generation_config.json",
+   "size": 269,
+   "sha256": null
+  },
+  {
+   "path": "text_encoder/merges.txt",
+   "size": 1671839,
+   "sha256": null
+  },
+  {
+   "path": "text_encoder/model-00001-of-00002.safetensors",
+   "size": 4967229296,
+   "sha256": "30a01a0556622645a3cce87b655bbbbbc1f170c196099f1b666c93202c3339a9"
+  },
+  {
+   "path": "text_encoder/model-00002-of-00002.safetensors",
+   "size": 3908490048,
+   "sha256": "046296a2a387efb43b0c997d5833c789604d168834f6e0d3064bf7bb13d002a6"
+  },
+  {
+   "path": "text_encoder/model.safetensors.index.json",
+   "size": 64742,
+   "sha256": null
+  },
+  {
+   "path": "text_encoder/preprocessor_config.json",
+   "size": 390,
+   "sha256": null
+  },
+  {
+   "path": "text_encoder/tokenizer.json",
+   "size": 7032403,
+   "sha256": null
+  },
+  {
+   "path": "text_encoder/tokenizer_config.json",
+   "size": 10868,
+   "sha256": null
+  },
+  {
+   "path": "text_encoder/video_preprocessor_config.json",
+   "size": 385,
+   "sha256": null
+  },
+  {
+   "path": "text_encoder/vocab.json",
+   "size": 2776833,
+   "sha256": null
+  },
+  {
+   "path": "transformer/config.json",
+   "size": 834,
+   "sha256": null
+  },
+  {
+   "path": "transformer/diffusion_pytorch_model.safetensors",
+   "size": 2791967328,
+   "sha256": "948b15845c0fe24fdfa598204ffc2d80b96a4ad2ab5b03d303f0b6d8b0e9b494"
+  },
+  {
+   "path": "vae/config.json",
+   "size": 724,
+   "sha256": null
+  },
+  {
+   "path": "vae/diffusion_pytorch_model.safetensors",
+   "size": 507591892,
+   "sha256": "d6e524b3fffede1787a74e81b30976dce5400c4439ba64222168e607ed19e793"
+  }
+ ]
+}

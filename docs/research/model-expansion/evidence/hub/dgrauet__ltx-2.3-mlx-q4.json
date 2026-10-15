@@ -1,0 +1,19 @@
+{
+  "repo": "dgrauet/ltx-2.3-mlx-q4",
+  "sha": "56a5866d638ecfe37c54d348e88938235185c2d4",
+  "gated": false,
+  "files": [
+    {"path":"config.json","size":951,"sha256":"2dd64d4f8b7a385b0471a23a6e2069e4bc0f9d9903fc289347b2e4cac3c776ec"},
+    {"path":"embedded_config.json","size":7234,"sha256":"c09755357e21d2b2eb15ea2b5c3c11f1e6b44c514ebb6d8babeee30e86f7bd14"},
+    {"path":"quantize_config.json","size":100,"sha256":"473aec38f34570fe7379d337e00fa191240cd9578da17df1f55df247b735012f"},
+    {"path":"split_model.json","size":1835,"sha256":"bb72acf615558c11578b677ede6b530481c3e09db0d36515239dd8c95704ea04"},
+    {"path":"transformer-distilled-1.1.safetensors","size":11322002285,"sha256":"a78f67e1c9bf3c171b8c043721cdb7cbf72ff2a1fc8a5021769ca622f506b890"},
+    {"path":"connector.safetensors","size":6344495512,"sha256":"5885c2bd7af4e761b3257cf5b17bc1fdb2d187cea3ca520ea723b6a129b7029f"},
+    {"path":"vae_encoder.safetensors","size":637885319,"sha256":"1512f5ef8387901db0baecb328690676e2667ddf2b63e28f8e6645188c1a8c06"},
+    {"path":"vae_decoder.safetensors","size":814349531,"sha256":"f404026fe0b59418eaec4a3fcdc474125c798f0b787dc390f6eb4e79934d4160"},
+    {"path":"spatial_upscaler_x2_v1_1_config.json","size":275,"sha256":"c0646d97bf1bc3fa6e66ec7d17f16ef31b717e64bf86474b7dc3993b6c42346a"},
+    {"path":"spatial_upscaler_x2_v1_1.safetensors","size":995745061,"sha256":"755f69dcb8a3f9589045925eb4a2237e9969f9c026a016393bc395e65ebd5788"},
+    {"path":"audio_vae.safetensors","size":106509048,"sha256":"442119db8eaf976f83a105cc8c5f2c930e0f625062f9776b10adcdb7bc96c416"},
+    {"path":"vocoder.safetensors","size":258313851,"sha256":"410cee86c14f76956bf487d153211ef15050fe8bf51f86d47a1d27ca6e3ba287"}
+  ]
+}

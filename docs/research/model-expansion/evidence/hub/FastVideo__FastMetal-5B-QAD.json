@@ -1,0 +1,22 @@
+{
+  "repo": "FastVideo/FastMetal-5B-QAD",
+  "sha": "5e4819ec9c8dd062443cf015bd9022c700eca458",
+  "gated": false,
+  "files": [
+    { "path": "mlx_dit.json", "size": 31940, "sha256": "5a81c62200a949d9fa2b277f16d47c5793c3b31defb7b5c058e9fe82ed0b6d5a" },
+    { "path": "mlx_dit.safetensors", "size": 5314678720, "sha256": "652c322e954046dfea2fe5e5e239c2284ee5d8bcd18d40ed57d9c6cdf95b930a" },
+    { "path": "model_index.json", "size": 502, "sha256": "a43fbeeb223895748ee9b266f52c0272ad31e6be3eb664d22dfc097015134ab9" },
+    { "path": "scheduler/scheduler_config.json", "size": 820, "sha256": "571a3eed68bcd943a61b9fea8efa9e141472216ada59f928c8b5128ce24b32e0" },
+    { "path": "text_encoder/config.json", "size": 855, "sha256": "a2bcb24699f6c009a2427432bdd483ef8b2b42a712abc9503759cdc77d171f07" },
+    { "path": "text_encoder/model-00001-of-00003.safetensors", "size": 4935812536, "sha256": "a8e861969c7433e707cc5a74065d795d36cca07ec96eb6763eb4083df7248f58" },
+    { "path": "text_encoder/model-00002-of-00003.safetensors", "size": 4983103192, "sha256": "d57d948ece4837d850b7a859a4415121d57cacf8b9ee1d4db200c67f592902d7" },
+    { "path": "text_encoder/model-00003-of-00003.safetensors", "size": 1442935480, "sha256": "0da9ee284e21d1406df708788db1d502d95d75f69faa25cd26151bf8829b7c5f" },
+    { "path": "text_encoder/model.safetensors.index.json", "size": 22476, "sha256": "31c4c7bcce679eaa0dd4667462394ddb013dc2f748e0bffc893dc9146a320dab" },
+    { "path": "tokenizer/special_tokens_map.json", "size": 7079, "sha256": "456b58fd240a06c743a7c2cf8008bec501240d68ebd1fc4018ea569505fea270" },
+    { "path": "tokenizer/spiece.model", "size": 4548313, "sha256": "e3909a67b780650b35cf529ac782ad2b6b26e6d1f849d3fbb6a872905f452458" },
+    { "path": "tokenizer/tokenizer.json", "size": 16837459, "sha256": "20a46ac256746594ed7e1e3ef733b83fbc5a6f0922aa7480eda961743de080ef" },
+    { "path": "tokenizer/tokenizer_config.json", "size": 61758, "sha256": "1d8d2a216bf8e70ac15b7ddcea566c4dd0433c024b39a58ca5e4c66bd78defbd" },
+    { "path": "vae/config.json", "size": 1701, "sha256": "d996c340fe9a7df5d7371f76a7d8d6956f6c98256080074d8434fa5eeac11360" },
+    { "path": "vae/diffusion_pytorch_model.safetensors", "size": 2818777808, "sha256": "62cd18f19438e35b32ac63020e2852f566e9b02f46b6cdbd87972a356e3c6f4b" }
+  ]
+}

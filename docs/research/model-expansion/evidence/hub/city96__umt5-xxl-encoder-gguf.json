@@ -1,0 +1,74 @@
+{
+ "repo": "city96/umt5-xxl-encoder-gguf",
+ "retrieved": "2026-09-13",
+ "sha": "b535255bee98c2b0a59ea7c0ae2dcd0c6657b3b7",
+ "gated": false,
+ "private": false,
+ "license": "apache-2.0",
+ "license_name": null,
+ "license_link": null,
+ "pipeline_tag": null,
+ "lastModified": "2025-03-04T01:41:27.000Z",
+ "files": [
+  {
+   "path": ".gitattributes",
+   "size": 2159,
+   "sha256": null
+  },
+  {
+   "path": "README.md",
+   "size": 775,
+   "sha256": null
+  },
+  {
+   "path": "umt5-xxl-encoder-F16.gguf",
+   "size": 11368687456,
+   "sha256": "fa1d36fd54f171ae60fea915c23bd77986b330bbed9729f0d2f8ecbe9168bc48"
+  },
+  {
+   "path": "umt5-xxl-encoder-F32.gguf",
+   "size": 22730008416,
+   "sha256": "8bc12d80bc0413573fa58a93626117440b4528f640dd9cb310732e05fa9e6c3e"
+  },
+  {
+   "path": "umt5-xxl-encoder-Q3_K_M.gguf",
+   "size": 3055097696,
+   "sha256": "b7e2ca4c493c9d51fa951005e8ceba2f4b6b6877cfb4c36a8955c6cd68a1dba7"
+  },
+  {
+   "path": "umt5-xxl-encoder-Q3_K_S.gguf",
+   "size": 2858489696,
+   "sha256": "f64f8d6dc4d8a24276df69d0ccea789aae686f7417950a41e6568c30cb478a5c"
+  },
+  {
+   "path": "umt5-xxl-encoder-Q4_K_M.gguf",
+   "size": 3655145312,
+   "sha256": "17cf97a5bbbc60a646d6105b832b6f657ce904a8a1ad970e4b59df0c67584a40"
+  },
+  {
+   "path": "umt5-xxl-encoder-Q4_K_S.gguf",
+   "size": 3497596768,
+   "sha256": "4a3176f32fd70c0a335b4419fcbf8c86cc875e23498c0fc06f5b4aa0930889e0"
+  },
+  {
+   "path": "umt5-xxl-encoder-Q5_K_M.gguf",
+   "size": 4145878880,
+   "sha256": "eaea358bb438c5d211721a4feecc162000e3636e9cb96f51e216f1f44ebd12ce"
+  },
+  {
+   "path": "umt5-xxl-encoder-Q5_K_S.gguf",
+   "size": 4052293472,
+   "sha256": "adbc782b9145a27e15d63dfa25057efca0ac75e2db7d372c901ddaa130ca2def"
+  },
+  {
+   "path": "umt5-xxl-encoder-Q6_K.gguf",
+   "size": 4667283296,
+   "sha256": "9209b4c77b34ad8cf3f06b04c6eaa27e7beeebb348a31f85e3b38a1d719b09ed"
+  },
+  {
+   "path": "umt5-xxl-encoder-Q8_0.gguf",
+   "size": 6043068256,
+   "sha256": "2521d4de0bf9e1cc6549866463ceae85e4ec3239bc6063f7488810be39033bbc"
+  }
+ ]
+}

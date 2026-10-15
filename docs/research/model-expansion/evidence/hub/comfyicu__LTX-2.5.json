@@ -1,0 +1,11 @@
+{
+  "repo": "comfyicu/LTX-2.5",
+  "sha": "1026e00f808dbd9601911479b22d65b760737dc8",
+  "gated": false,
+  "license_name": "ltx-2-community-license-agreement",
+  "files": [
+    {"path": "text_encoders/gemma4-12b-with-proj-ltx-2.5-comfy-int8-convrot.safetensors", "size": 15372971786, "sha256": "09a89e084de1a149c3de60cfe9dfd3e5161967eb09eea39e806fcdeffdd568de"},
+    {"path": "vae/ltx-2.5-video-vae-conv-bf16.safetensors", "size": 1452269922, "sha256": "685b06ee3d9b2039647698fc4ea33175112462fc374e2777312c907897dfce8d"},
+    {"path": "vae/ltx-2.5-audio-vae-bf16.safetensors", "size": 364866540, "sha256": "c52733d37f6a7fb7949c3dc0fb468c6cb2169e4d836983a73babb9f0d54837a5"}
+  ]
+}

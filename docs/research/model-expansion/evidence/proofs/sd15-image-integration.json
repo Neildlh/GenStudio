@@ -1,0 +1,55 @@
+{
+  "checkpointSHA256" : "b8944e9fe0b69b36ae1b5bb0185b3a7b8ef14347fe0fa9af6c64c4829022261f",
+  "date" : "2026-09-13T17:38:37Z",
+  "engineBuild" : "stable-diffusion.cpp@7f410a3793c5bba8eb198e962ce7a3d6095f9d89",
+  "imageToImageOutput" : {
+    "byteSize" : 181266,
+    "sha256" : "57ab18b567c2937ec48eadd1d393f54c8168783f4aab45fd913a16dc4955a092"
+  },
+  "imageToImageRequest" : {
+    "cfgScale" : 7,
+    "engineBuild" : "stable-diffusion.cpp@7f410a3793c5bba8eb198e962ce7a3d6095f9d89",
+    "height" : 512,
+    "prompt" : "a green apple on a dark wooden table, studio photograph, detailed",
+    "recipeID" : "sd15-q4",
+    "referenceIdentity" : {
+      "byteSize" : 149801,
+      "sha256" : "c62c70e71e0de69349dc3e6297f3992dea0212637695d6ff458a96dfe3b03f38"
+    },
+    "referenceImage" : "file:\/\/\/var\/folders\/1h\/4ssbt8jn0l95pp01rbgg2wsr0000gn\/T\/GenStudio-sd15-integration-649C8602-0670-4B2F-824B-6A9F61EC1228\/Artifacts\/FC3CE498-BF74-4F41-8F84-0018C1212227.png",
+    "sampler" : "euler_a",
+    "seed" : 7,
+    "sourceReferenceIdentity" : {
+      "byteSize" : 173445,
+      "sha256" : "a9b402499c7579965cfcbd185b95335792ac310b5cb422ffccf3fd23cc515b6b"
+    },
+    "steps" : 20,
+    "strength" : 0.55,
+    "task" : "imageToImage",
+    "width" : 512
+  },
+  "imageToImageWallSeconds" : 61.072107911109924,
+  "note" : "Wall seconds include component SHA-256 validation, model load, sampling, decode and artifact retention through ExecutionQueue. Paths in requests point at a deleted temporary library.",
+  "recipeID" : "sd15-q4",
+  "stats" : {
+    "meanAbsoluteDifference" : 5.397705078125,
+    "outputStandardDeviation" : 78.61951520895701
+  },
+  "textToImageOutput" : {
+    "byteSize" : 173445,
+    "sha256" : "a9b402499c7579965cfcbd185b95335792ac310b5cb422ffccf3fd23cc515b6b"
+  },
+  "textToImageRequest" : {
+    "cfgScale" : 7,
+    "engineBuild" : "stable-diffusion.cpp@7f410a3793c5bba8eb198e962ce7a3d6095f9d89",
+    "height" : 512,
+    "prompt" : "a red apple on a dark wooden table, studio photograph, detailed",
+    "recipeID" : "sd15-q4",
+    "sampler" : "euler_a",
+    "seed" : 424242,
+    "steps" : 20,
+    "task" : "textToImage",
+    "width" : 512
+  },
+  "textToImageWallSeconds" : 111.51419591903687
+}

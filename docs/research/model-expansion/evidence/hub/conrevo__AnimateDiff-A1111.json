@@ -1,0 +1,164 @@
+{
+ "repo": "conrevo/AnimateDiff-A1111",
+ "retrieved": "2026-09-13",
+ "sha": "aa4a0ef5bd366a0ec898e7a64b6fc0f612e37444",
+ "gated": false,
+ "private": false,
+ "license": null,
+ "license_name": null,
+ "license_link": null,
+ "pipeline_tag": null,
+ "lastModified": "2024-07-12T15:56:37.000Z",
+ "files": [
+  {
+   "path": ".gitattributes",
+   "size": 1519,
+   "sha256": null
+  },
+  {
+   "path": "README.md",
+   "size": 2669,
+   "sha256": null
+  },
+  {
+   "path": "control/mm_sd15_v3_sparsectrl_rgb.safetensors",
+   "size": 993974272,
+   "sha256": "2d07d75bd0395fd419477395305b34d4cd23b5d3e7ad5896d73b7fdfe49594d2"
+  },
+  {
+   "path": "control/mm_sd15_v3_sparsectrl_scribble.safetensors",
+   "size": 996119576,
+   "sha256": "8e6451a0f0d1430684e6b895ba13adf147946e553ad568038a4621dfaca1d52b"
+  },
+  {
+   "path": "convert.py",
+   "size": 6790,
+   "sha256": null
+  },
+  {
+   "path": "lora/mm_sd15_v2_lora_PanLeft.safetensors",
+   "size": 38730736,
+   "sha256": "a6276d00d0398241f5d03862a95fb4002fa251c7238e9c8a284399ee48445d65"
+  },
+  {
+   "path": "lora/mm_sd15_v2_lora_PanRight.safetensors",
+   "size": 38730736,
+   "sha256": "86e04ae653fbbe2e8287cca41961301c343941c60a2e24ef39ea71da765891cb"
+  },
+  {
+   "path": "lora/mm_sd15_v2_lora_RollingAnticlockwise.safetensors",
+   "size": 38730736,
+   "sha256": "edf299118571342807d57e4e4c1840c86be26c57b8682b3a7a3a35f7d2a134ee"
+  },
+  {
+   "path": "lora/mm_sd15_v2_lora_RollingClockwise.safetensors",
+   "size": 38730736,
+   "sha256": "bfb12b055b650b859f95dea0cd66b104aed19ddaf65d119346b529d2ab162a02"
+  },
+  {
+   "path": "lora/mm_sd15_v2_lora_TiltDown.safetensors",
+   "size": 38730736,
+   "sha256": "cb0d712627d48906b012f9d9ee41d5963fdb82929f7ac842b8ea29a3fb3b6183"
+  },
+  {
+   "path": "lora/mm_sd15_v2_lora_TiltUp.safetensors",
+   "size": 38730736,
+   "sha256": "d474baad5434ea5f5eb2125d7b031c642cfab46c2d8643921bbf4e22dcb8d056"
+  },
+  {
+   "path": "lora/mm_sd15_v2_lora_ZoomIn.safetensors",
+   "size": 38730736,
+   "sha256": "3b62ba0b02f7904772002e736c808894026295ed6087a20a2410b340cbb9b444"
+  },
+  {
+   "path": "lora/mm_sd15_v2_lora_ZoomOut.safetensors",
+   "size": 38730736,
+   "sha256": "3a2726d7e464e8bc17e64618f3b5a90845b0202c00fdc4346be1582ba08fd8a0"
+  },
+  {
+   "path": "lora/mm_sd15_v3_adapter.safetensors",
+   "size": 51059544,
+   "sha256": "78b7fd991066c10ffb24d6e7c89e01438be2c702568a2b5c5bf3a0371b1c854b"
+  },
+  {
+   "path": "lora_v2/mm_sd15_v2_lora_PanLeft.safetensors",
+   "size": 38727544,
+   "sha256": "7c21abede9d32778826d1f26976baed1acf79ae90a3cbfcf35c987ef7c862e77"
+  },
+  {
+   "path": "lora_v2/mm_sd15_v2_lora_PanRight.safetensors",
+   "size": 38727544,
+   "sha256": "f70336a72ac316f8667cd88d986fd01081ca8fc4b940fd6155df700f9389f897"
+  },
+  {
+   "path": "lora_v2/mm_sd15_v2_lora_RollingAnticlockwise.safetensors",
+   "size": 38727544,
+   "sha256": "b2148bd92f4102dcc05dfeb4b3d4c6e2c9e099d2f7583481cea17041167589f1"
+  },
+  {
+   "path": "lora_v2/mm_sd15_v2_lora_RollingClockwise.safetensors",
+   "size": 38727544,
+   "sha256": "e855537b7e33438362f156b59693030db437960e12d269e6f89f33d23a05ed45"
+  },
+  {
+   "path": "lora_v2/mm_sd15_v2_lora_TiltDown.safetensors",
+   "size": 38727544,
+   "sha256": "38f2a7f96ffa612f8a397dda465a267b994379e91f67b0584875200608c6bc13"
+  },
+  {
+   "path": "lora_v2/mm_sd15_v2_lora_TiltUp.safetensors",
+   "size": 38727544,
+   "sha256": "54f0cb3900af167360b1af934e101a88e00541dee297a5fa629415e834a4bf0f"
+  },
+  {
+   "path": "lora_v2/mm_sd15_v2_lora_ZoomIn.safetensors",
+   "size": 38727544,
+   "sha256": "6cc1467ab86de38073c877b1b1798c96de0dc945dc91df04031313bb20670ef5"
+  },
+  {
+   "path": "lora_v2/mm_sd15_v2_lora_ZoomOut.safetensors",
+   "size": 38727544,
+   "sha256": "ce4ebb8f003ac988bf69db17fe5ef655d72b8512dabb18f07e4355d3b6b8f1ec"
+  },
+  {
+   "path": "lora_v2/mm_sd15_v3_adapter.safetensors",
+   "size": 51059544,
+   "sha256": "78b7fd991066c10ffb24d6e7c89e01438be2c702568a2b5c5bf3a0371b1c854b"
+  },
+  {
+   "path": "motion_module/mm_sd14_v1.safetensors",
+   "size": 836054808,
+   "sha256": "dc16214feab8b0d8b9e7b05f5a4d9c5e2648601e9c807c51b1b0dc7478879535"
+  },
+  {
+   "path": "motion_module/mm_sd15_AnimateLCM.safetensors",
+   "size": 906505488,
+   "sha256": "f3c5eb97c65d35362e713416e402d54174ccaa0f531f45ad80006e48199bc77d"
+  },
+  {
+   "path": "motion_module/mm_sd15_v1.safetensors",
+   "size": 836054808,
+   "sha256": "cb1858cebf3b0d83e056c7413fc9c43702f24f78c295a4cde1a8ba97f299f7df"
+  },
+  {
+   "path": "motion_module/mm_sd15_v2.safetensors",
+   "size": 908929664,
+   "sha256": "d3976a7dcd11d4f5202d5360c6f1996fc669d6114c530afb3dca4769cc6dd2b2"
+  },
+  {
+   "path": "motion_module/mm_sd15_v3.safetensors",
+   "size": 836618008,
+   "sha256": "a8ca0eadb18c6ad6652bca344a458f31780901a87f765bf95a81ef9c5be55f29"
+  },
+  {
+   "path": "motion_module/mm_sdxl_hs.safetensors",
+   "size": 474700904,
+   "sha256": "a8345a99396e5be93e0f90ace4a78ec0bd85d2d7cf63e2aae747fe64288aab7b"
+  },
+  {
+   "path": "motion_module/mm_sdxl_v10_beta.safetensors",
+   "size": 475059304,
+   "sha256": "deda6b381d44c3e60d410432fb5be4d7147460948e0edb55a7d5997804e5f6c3"
+  }
+ ]
+}

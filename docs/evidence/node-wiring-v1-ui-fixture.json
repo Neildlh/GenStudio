@@ -1,0 +1,32 @@
+{
+  "createdAt" : "2026-09-12T21:05:15Z",
+  "edges" : [
+
+  ],
+  "id" : "44976CB2-9C1A-4F71-BB88-E26C3433119C",
+  "name" : "Node Wiring Acceptance",
+  "nodes" : [
+    {
+      "id" : "46B04D23-260F-4328-AEBF-A38DA1567EA1",
+      "kind" : "prompt",
+      "label" : "Prompt 1",
+      "maxTokens" : 64,
+      "model" : "",
+      "position" : {
+        "x" : 206.38543701171875,
+        "y" : 179.98959350585938
+      },
+      "prompt" : "A red paper sculpture",
+      "temperature" : 0.7
+    }
+  ],
+  "schemaVersion" : 1,
+  "updatedAt" : "2026-09-12T21:06:05Z",
+  "viewport" : {
+    "offset" : {
+      "x" : 0,
+      "y" : 0
+    },
+    "zoom" : 1
+  }
+}

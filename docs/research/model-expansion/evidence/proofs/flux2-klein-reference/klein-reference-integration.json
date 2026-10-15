@@ -1,0 +1,76 @@
+{
+  "date" : "2026-09-14T14:18:55Z",
+  "diffusionSHA256" : "d1023499ef3f2f82ff7c50e6778495195c1b6cc34835741778868428111f9ff4",
+  "engineBuild" : "stable-diffusion.cpp@7f410a3793c5bba8eb198e962ce7a3d6095f9d89",
+  "importSeconds" : 5.4148930311203,
+  "note" : "Wall seconds include component SHA-256 validation, model load, sampling, decode and artifact retention through ExecutionQueue. Reference inputs are synthetic solid-colour fixtures, so this proof establishes that the three-ordered-reference command path decodes a valid image end to end; it is not a quality claim about subject fidelity. Paths in requests point at a deleted temporary library.",
+  "recipeID" : "flux2-klein-4b-q4",
+  "referenceEditOutput" : {
+    "byteSize" : 298298,
+    "sha256" : "7b0f658114b8f675c00032ae13e3145bf9a191f7bc28bc5e28bcad18848abb06"
+  },
+  "referenceEditRequest" : {
+    "additionalReferenceIdentities" : [
+      {
+        "byteSize" : 1768,
+        "sha256" : "a588a4b35899dd28c7e0f5d97a1acb19ce23fc591510a03459e8a1864f80c5ec"
+      },
+      {
+        "byteSize" : 1768,
+        "sha256" : "2be1a0104f7c425f0455b1a846d1ddad1a0b97cf1bcf3102b7337e4b1ba3d6ac"
+      }
+    ],
+    "additionalReferenceImages" : [
+      "file:\/\/\/var\/folders\/1h\/4ssbt8jn0l95pp01rbgg2wsr0000gn\/T\/GenStudio-klein-reference-integration-68A36809-7E8B-4A20-B73E-F82CDE5AABA4\/Artifacts\/29BCE533-7749-430C-88F3-34656AA52B43.png",
+      "file:\/\/\/var\/folders\/1h\/4ssbt8jn0l95pp01rbgg2wsr0000gn\/T\/GenStudio-klein-reference-integration-68A36809-7E8B-4A20-B73E-F82CDE5AABA4\/Artifacts\/76B0BC7A-95A3-4806-B8C9-3FC5EF97015E.png"
+    ],
+    "cfgScale" : 1,
+    "engineBuild" : "stable-diffusion.cpp@7f410a3793c5bba8eb198e962ce7a3d6095f9d89",
+    "height" : 512,
+    "prompt" : "Combine the character sheet identity and portrait framing into the scene background, small red toy robot, studio lighting",
+    "recipeID" : "flux2-klein-4b-q4",
+    "referenceIdentity" : {
+      "byteSize" : 1767,
+      "sha256" : "c11764e94b1edb7d97cce9b6eb63105faa81de4533dae352ff85ed1208929b88"
+    },
+    "referenceImage" : "file:\/\/\/var\/folders\/1h\/4ssbt8jn0l95pp01rbgg2wsr0000gn\/T\/GenStudio-klein-reference-integration-68A36809-7E8B-4A20-B73E-F82CDE5AABA4\/Artifacts\/16F578AD-562F-4394-81D6-D7D8D6577AB4.png",
+    "sampler" : "euler",
+    "seed" : 7,
+    "sourceAdditionalReferenceIdentities" : [
+      {
+        "byteSize" : 1768,
+        "sha256" : "a588a4b35899dd28c7e0f5d97a1acb19ce23fc591510a03459e8a1864f80c5ec"
+      },
+      {
+        "byteSize" : 1768,
+        "sha256" : "2be1a0104f7c425f0455b1a846d1ddad1a0b97cf1bcf3102b7337e4b1ba3d6ac"
+      }
+    ],
+    "sourceReferenceIdentity" : {
+      "byteSize" : 1767,
+      "sha256" : "c11764e94b1edb7d97cce9b6eb63105faa81de4533dae352ff85ed1208929b88"
+    },
+    "steps" : 4,
+    "task" : "imageToImage",
+    "width" : 512
+  },
+  "referenceEditWallSeconds" : 130.9685640335083,
+  "textEncoderSHA256" : "f6f851777709861056efcdad3af01da38b31223a3ba26e61a4f8bf3a2195813a",
+  "textToImageOutput" : {
+    "byteSize" : 329076,
+    "sha256" : "66b58b2e434e79cd33d44dfeec6a6b598223827ea08d5a0af6e9791fe19b1c7b"
+  },
+  "textToImageRequest" : {
+    "cfgScale" : 1,
+    "engineBuild" : "stable-diffusion.cpp@7f410a3793c5bba8eb198e962ce7a3d6095f9d89",
+    "height" : 512,
+    "prompt" : "a small red toy robot standing on a wooden desk, studio lighting, plain background",
+    "recipeID" : "flux2-klein-4b-q4",
+    "seed" : 424242,
+    "steps" : 4,
+    "task" : "textToImage",
+    "width" : 512
+  },
+  "textToImageWallSeconds" : 48.42373597621918,
+  "vaeSHA256" : "868fe7b343cc8f3a19dbcfcafbc3d5f888802be3f89bd81b65b3621a066ce8f3"
+}

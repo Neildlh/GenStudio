@@ -1,0 +1,28 @@
+name: Feature request
+description: Propose a focused improvement to GenStudio.
+title: "feature: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or workflow
+      description: What creator problem would this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: Describe the smallest useful version and likely trade-offs.
+    validations:
+      required: true
+  - type: checkboxes
+    id: principles
+    attributes:
+      label: Project principles
+      options:
+        - label: This request does not require a silent cloud fallback.
+          required: true
+        - label: I have not included credentials, private media, or private paths.
+          required: true

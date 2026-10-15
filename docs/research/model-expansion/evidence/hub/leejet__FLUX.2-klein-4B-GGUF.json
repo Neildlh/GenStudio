@@ -1,0 +1,34 @@
+{
+ "repo": "leejet/FLUX.2-klein-4B-GGUF",
+ "retrieved": "2026-09-13",
+ "sha": "3b1f5a9dc3abb32238b053aeb3d823c30afdacbd",
+ "gated": false,
+ "private": false,
+ "license": "apache-2.0",
+ "license_name": null,
+ "license_link": null,
+ "pipeline_tag": "text-to-image",
+ "lastModified": "2026-01-17T06:39:12.000Z",
+ "files": [
+  {
+   "path": ".gitattributes",
+   "size": 1643,
+   "sha256": null
+  },
+  {
+   "path": "README.md",
+   "size": 470,
+   "sha256": null
+  },
+  {
+   "path": "flux-2-klein-4b-Q4_0.gguf",
+   "size": 2460378560,
+   "sha256": "d1023499ef3f2f82ff7c50e6778495195c1b6cc34835741778868428111f9ff4"
+  },
+  {
+   "path": "flux-2-klein-4b-Q8_0.gguf",
+   "size": 4300629440,
+   "sha256": "0bba6951258ec8f92d51114a8fa13e66828297bfff58a738f52729b3ef66fa28"
+  }
+ ]
+}

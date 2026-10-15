@@ -1,0 +1,3 @@
+.build/
+.integration-models/
+.DS_Store

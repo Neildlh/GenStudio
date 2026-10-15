@@ -1,0 +1,124 @@
+{
+ "repo": "ByteDance/SDXL-Lightning",
+ "retrieved": "2026-09-13",
+ "sha": "c9a24f48e1c025556787b0c58dd67a091ece2e44",
+ "gated": false,
+ "private": false,
+ "license": "openrail++",
+ "license_name": null,
+ "license_link": null,
+ "pipeline_tag": "text-to-image",
+ "lastModified": "2024-04-03T15:59:08.000Z",
+ "files": [
+  {
+   "path": ".gitattributes",
+   "size": 1581,
+   "sha256": null
+  },
+  {
+   "path": "LICENSE.md",
+   "size": 14143,
+   "sha256": null
+  },
+  {
+   "path": "README.md",
+   "size": 6527,
+   "sha256": null
+  },
+  {
+   "path": "comfyui/sdxl_lightning_workflow_full.jpg",
+   "size": 269508,
+   "sha256": null
+  },
+  {
+   "path": "comfyui/sdxl_lightning_workflow_full.json",
+   "size": 6644,
+   "sha256": null
+  },
+  {
+   "path": "comfyui/sdxl_lightning_workflow_full_1step.jpg",
+   "size": 285298,
+   "sha256": null
+  },
+  {
+   "path": "comfyui/sdxl_lightning_workflow_full_1step.json",
+   "size": 7184,
+   "sha256": null
+  },
+  {
+   "path": "comfyui/sdxl_lightning_workflow_lora.jpg",
+   "size": 287313,
+   "sha256": null
+  },
+  {
+   "path": "comfyui/sdxl_lightning_workflow_lora.json",
+   "size": 7436,
+   "sha256": null
+  },
+  {
+   "path": "sdxl_lightning_1step_unet_x0.safetensors",
+   "size": 5135149736,
+   "sha256": "14d53ad5b440a37fc0f429d595d96bf144c5dd842aa5747383e6098c9dbfa644"
+  },
+  {
+   "path": "sdxl_lightning_1step_x0.safetensors",
+   "size": 6938040682,
+   "sha256": "dd8d4c2b341cdbbe88178135786bd4ea1a6f46d6dcb719f05524a5e761ae19a0"
+  },
+  {
+   "path": "sdxl_lightning_2step.safetensors",
+   "size": 6938040682,
+   "sha256": "87e61f60b85d9f1c577bd9053872c7678b7d39f6f52d470081ff6ea3b49ddf98"
+  },
+  {
+   "path": "sdxl_lightning_2step_lora.safetensors",
+   "size": 393854592,
+   "sha256": "04fafc778385b24144498a8247498ae4fb7a69f702ea0566bdce2845a31fcc43"
+  },
+  {
+   "path": "sdxl_lightning_2step_unet.safetensors",
+   "size": 5135149736,
+   "sha256": "15a96a3b213b8b4d6ea720b4fa5bf6723cd877170bd1a90f58e34da2968ef854"
+  },
+  {
+   "path": "sdxl_lightning_4step.safetensors",
+   "size": 6938040682,
+   "sha256": "e0d996ee0013e79d9d3561f50fcafb9a17e3ff07b780358e3b66d67932c4d490"
+  },
+  {
+   "path": "sdxl_lightning_4step_lora.safetensors",
+   "size": 393854592,
+   "sha256": "bf56cf2657efb15e465d81402ed481d1e11c4677e4bcce1bc11fe71ad8506b79"
+  },
+  {
+   "path": "sdxl_lightning_4step_unet.safetensors",
+   "size": 5135149736,
+   "sha256": "39a90a8a2a25c1372633c1e8eb1a96f85eab937bcb58cfc6ec9baf66242ec23c"
+  },
+  {
+   "path": "sdxl_lightning_8step.safetensors",
+   "size": 6938040682,
+   "sha256": "43f0501ac4ffcef84f3fc32a47779f24c181647fa97ef7f5ec4428107d732ae9"
+  },
+  {
+   "path": "sdxl_lightning_8step_lora.safetensors",
+   "size": 393854592,
+   "sha256": "5aa30d94cdf7950a8b53a693682650ee061eddb128c5435a8f88defea73b2ac6"
+  },
+  {
+   "path": "sdxl_lightning_8step_unet.safetensors",
+   "size": 5135149736,
+   "sha256": "471d8260fda0b17b8906feb24573ce64933d4b6b99ba7a1fa43ca051b994e869"
+  },
+  {
+   "path": "sdxl_lightning_report.pdf",
+   "size": 16494599,
+   "sha256": "94bb9b70bd134e2639e55b08f4be2984c7ff007f5e071a6f0f61d14c20378e5f"
+  },
+  {
+   "path": "sdxl_lightning_samples.jpg",
+   "size": 300292,
+   "sha256": null
+  }
+ ]
+}

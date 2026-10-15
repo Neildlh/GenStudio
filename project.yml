@@ -1,0 +1,104 @@
+name: GenStudio
+options:
+  bundleIdPrefix: studio.gen
+  # Matches Xcode's "Update to recommended settings" (LastUpgradeCheck 2700), so
+  # regenerating does not bring the upgrade prompt back.
+  xcodeVersion: "27.0"
+  deploymentTarget:
+    macOS: "26.0"
+packages:
+  RifeMetal:
+    url: https://github.com/cinemore/rife-metal.git
+    exactVersion: 0.1.6
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    SWIFT_STRICT_CONCURRENCY: complete
+
+    MACOSX_DEPLOYMENT_TARGET: "26.0"
+    CODE_SIGN_STYLE: Automatic
+    GENERATE_INFOPLIST_FILE: YES
+    PRODUCT_BUNDLE_IDENTIFIER: studio.gen.GenStudio
+    # The runtime packaging phase copies and re-signs nested .vendor trees; Xcode's
+    # user-script sandbox cannot express those recursive code-sign operations.
+    ENABLE_USER_SCRIPT_SANDBOXING: NO
+    ENABLE_HARDENED_RUNTIME: NO
+    ENABLE_APP_SANDBOX: NO
+    # Single source for the bundle version (CFBundleShortVersionString / CFBundleVersion via the generated Info.plist).
+    MARKETING_VERSION: "0.1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    # Xcode 27 recommended settings, applied in Xcode and kept here so xcodegen preserves them.
+    DEAD_CODE_STRIPPING: YES
+    STRING_CATALOG_GENERATE_SYMBOLS: YES
+  configs:
+    # Debug stays unhardened for local debugging; Release is Hardened Runtime-ready for Developer ID notarization.
+    Release:
+      ENABLE_HARDENED_RUNTIME: YES
+      GENSTUDIO_BUNDLE_LOCAL_RUNTIMES: YES
+    Debug:
+      GENSTUDIO_BUNDLE_LOCAL_RUNTIMES: NO
+targets:
+  GenStudio:
+    type: application
+    platform: macOS
+    sources: [GenStudio]
+    # Registers .genstudio so a packaged project opens in GenStudio when double-clicked in Finder.
+    info:
+      path: Config/GenStudio-Info.plist
+      properties:
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        CFBundleDocumentTypes:
+          - CFBundleTypeName: GenStudio Project
+            CFBundleTypeRole: Editor
+            CFBundleTypeExtensions: [genstudio]
+            LSHandlerRank: Owner
+    dependencies:
+      - package: RifeMetal
+      # SwiftUI's VideoPlayer lives in _AVKit_SwiftUI, and `import AVKit` autolinks
+      # only that shim plus AVFoundation — not AVKit itself. Its VideoPlayerView
+      # subclasses the Objective-C AVPlayerView, so without AVKit in the process the
+      # Swift runtime cannot resolve the superclass and traps with "failed to
+      # demangle superclass of VideoPlayerView from mangled name 'So12AVPlayerViewC'"
+      # the first time a video preview is built. Link AVKit explicitly.
+      - sdk: AVKit.framework
+    postBuildScripts:
+      - name: Bundle Local Generation Engines
+        script: bash "$SRCROOT/script/package_local_runtimes.sh"
+        # Xcode skips this phase when the app-owned runtime output is still
+        # current. A clean build still performs the required initial copy and
+        # signing, but ordinary source builds no longer rescan/sign 1.6 GB of
+        # MLX/Python payload on every invocation.
+        basedOnDependencyAnalysis: true
+        inputFiles:
+          - $(SRCROOT)/script/package_local_runtimes.sh
+          - $(SRCROOT)/.vendor/llama
+          - $(SRCROOT)/.vendor/sd
+          - $(SRCROOT)/.vendor/mlx-fastvideo
+        outputFiles:
+          - $(TARGET_BUILD_DIR)/$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/.local-runtime-packaging.stamp
+    settings:
+      base:
+        PRODUCT_NAME: GenStudio
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        INFOPLIST_KEY_CFBundleDisplayName: GenStudio
+        INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.graphics-design
+        DEAD_CODE_STRIPPING: YES
+  GenStudioTests:
+    type: bundle.unit-test
+    platform: macOS
+    sources: [GenStudioTests]
+    dependencies:
+      - target: GenStudio
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: studio.gen.GenStudioTests
+        DEAD_CODE_STRIPPING: YES
+schemes:
+  GenStudio:
+    build:
+      targets:
+        GenStudio: all
+        GenStudioTests: [test]
+    test:
+      targets: [GenStudioTests]

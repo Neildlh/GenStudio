@@ -1,0 +1,99 @@
+{
+ "repo": "leejet/Z-Image-Turbo-GGUF",
+ "retrieved": "2026-09-13",
+ "sha": "c61c0e422dc8b541b7548cf33a4ef8302b0f8085",
+ "gated": false,
+ "private": false,
+ "license": "apache-2.0",
+ "license_name": null,
+ "license_link": null,
+ "pipeline_tag": "text-to-image",
+ "lastModified": "2025-12-02T12:31:06.000Z",
+ "files": [
+  {
+   "path": ".gitattributes",
+   "size": 1986,
+   "sha256": null
+  },
+  {
+   "path": "README.md",
+   "size": 1962,
+   "sha256": null
+  },
+  {
+   "path": "z_image/bf16.png",
+   "size": 1062828,
+   "sha256": "aa1a0fabaf04cab8b44f60930c7431a2414e5bfa0d96bf815bf5a6c3115637dc"
+  },
+  {
+   "path": "z_image/q2_K.png",
+   "size": 1201249,
+   "sha256": "f86a5fbe415db901cba805ec350251494544d64d42efca9877b89530ca56a4de"
+  },
+  {
+   "path": "z_image/q3_K.png",
+   "size": 1117975,
+   "sha256": "e879c37afa4d8cb8ba7ff157dc3888b56456b85e83ac783f738e1913816b243f"
+  },
+  {
+   "path": "z_image/q4_0.png",
+   "size": 1063425,
+   "sha256": "8daeb0f1a7569907b79342a644289d7611815f87f7443133ade80c46327fd0e1"
+  },
+  {
+   "path": "z_image/q4_K.png",
+   "size": 1070991,
+   "sha256": "a157b6b8e4468a9c6505985b911e94bfdcfa7deaec303fd9d0c776578f83ee34"
+  },
+  {
+   "path": "z_image/q5_0.png",
+   "size": 1063251,
+   "sha256": "3cce4ed94344f644fccecaf0b86b0d50ab3fa0ad9c11da21cb36756116d54872"
+  },
+  {
+   "path": "z_image/q6_K.png",
+   "size": 1068989,
+   "sha256": "52a2b95175254f008d6bbaba69cfa7dbfb44b12a32cd53f759872e4d8ffe4aa3"
+  },
+  {
+   "path": "z_image/q8_0.png",
+   "size": 1062950,
+   "sha256": "6de6373d80bd5c34fdae0b1e7a8aa8c7575b73d95ad1d62cd703f33ff6b4493c"
+  },
+  {
+   "path": "z_image_turbo-Q2_K.gguf",
+   "size": 2592442304,
+   "sha256": "a9cf1b0368e24c2f9d542d2951c01f6f7fc85ed8c9ed39b5b37b15375508d58a"
+  },
+  {
+   "path": "z_image_turbo-Q3_K.gguf",
+   "size": 3143559104,
+   "sha256": "4b44bdaa7814f20d7cf144e3939bd93aa32f50660204dd0c2aea5c5376232980"
+  },
+  {
+   "path": "z_image_turbo-Q4_0.gguf",
+   "size": 3683370944,
+   "sha256": "2bc57986874c84f7ec6d02d9d7070a53b0029954a0e38a6e1342eb91095572f5"
+  },
+  {
+   "path": "z_image_turbo-Q4_K.gguf",
+   "size": 3864250304,
+   "sha256": "14b375ab4f226bc5378f68f37e899ef3c2242b8541e61e2bc1aff40976086fbd"
+  },
+  {
+   "path": "z_image_turbo-Q5_0.gguf",
+   "size": 4542547904,
+   "sha256": "12b4a5c064cf8a0fa45d665c5b399d43effbcbeb37748d028d0d0d0fc34c2255"
+  },
+  {
+   "path": "z_image_turbo-Q6_K.gguf",
+   "size": 5263239104,
+   "sha256": "319f627beac8059b7546f36a7b4d5097b7f4ee6a1fc37585d0f75ca1d12d01af"
+  },
+  {
+   "path": "z_image_turbo-Q8_0.gguf",
+   "size": 6577440704,
+   "sha256": "df1c5baa86d1398c979495a6072dbcee79444fdb884a2445582ba0769c44e9a1"
+  }
+ ]
+}

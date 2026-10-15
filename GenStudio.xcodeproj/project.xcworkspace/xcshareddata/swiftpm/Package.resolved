@@ -1,0 +1,24 @@
+{
+  "originHash" : "1e6e36dbce91108431d3f6f5b8c6f853068635af74820fa598530368b60249c7",
+  "pins" : [
+    {
+      "identity" : "rife-metal",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/cinemore/rife-metal.git",
+      "state" : {
+        "revision" : "3e525cf41269b6b486ce21d24b59ba06aa6a507a",
+        "version" : "0.1.6"
+      }
+    },
+    {
+      "identity" : "swift-argument-parser",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-argument-parser.git",
+      "state" : {
+        "revision" : "6a52f3251125d74daf04fcbd5e6f08a75d074382",
+        "version" : "1.8.2"
+      }
+    }
+  ],
+  "version" : 3
+}

@@ -1,0 +1,82 @@
+{
+  "adapterSeconds" : 202.69004545826465,
+  "animatic" : {
+    "distinctFrames" : 5,
+    "duration" : 2.5,
+    "frameCount" : 20,
+    "hasAudio" : false,
+    "height" : 192,
+    "lastFrameTimestamp" : 2.375,
+    "width" : 320
+  },
+  "assembled" : {
+    "distinctFrames" : 14,
+    "duration" : 3.625,
+    "frameCount" : 29,
+    "hasAudio" : false,
+    "height" : 192,
+    "lastFrameTimestamp" : 3.5,
+    "width" : 320
+  },
+  "generated" : {
+    "distinctFrames" : 9,
+    "duration" : 1.125,
+    "frameCount" : 9,
+    "hasAudio" : false,
+    "height" : 192,
+    "lastFrameTimestamp" : 1,
+    "width" : 320
+  },
+  "importSeconds" : 5.160622000694275,
+  "machine" : "Apple M1 Max, 64 GB, Version 26.6.2 (Build 25G83)",
+  "outputSHA256" : "a475064aeda0f75840c24fdb52902fdb6c56df362935068f771527fcd0e7b23e",
+  "recordedAt" : "2026-09-13T12:29:34Z",
+  "request" : {
+    "cfgScale" : 6,
+    "engineBuild" : "stable-diffusion.cpp@7f410a3793c5bba8eb198e962ce7a3d6095f9d89",
+    "flowShift" : 3,
+    "fps" : 8,
+    "frameCount" : 9,
+    "height" : 192,
+    "mediaInputs" : [
+
+    ],
+    "negativePrompt" : "static, frozen, blurry, low quality, distorted",
+    "prompt" : "a red paper pinwheel slowly turning in a gentle breeze, locked camera, dark neutral studio background, soft light",
+    "recipeID" : "wan21-13b-q4",
+    "sampler" : "euler",
+    "seed" : 424243,
+    "steps" : 20,
+    "task" : "textToVideo",
+    "width" : 320
+  },
+  "stages" : [
+    "Validating model files",
+    "Loading model and encoding prompt",
+    "Sampling 0\/20",
+    "Sampling 1\/20",
+    "Sampling 2\/20",
+    "Sampling 3\/20",
+    "Sampling 4\/20",
+    "Sampling 5\/20",
+    "Sampling 6\/20",
+    "Sampling 7\/20",
+    "Sampling 8\/20",
+    "Sampling 9\/20",
+    "Sampling 10\/20",
+    "Sampling 11\/20",
+    "Sampling 12\/20",
+    "Sampling 13\/20",
+    "Sampling 14\/20",
+    "Sampling 15\/20",
+    "Sampling 16\/20",
+    "Sampling 17\/20",
+    "Sampling 18\/20",
+    "Sampling 19\/20",
+    "Sampling 20\/20",
+    "Decoding frames (VAE)",
+    "Writing frames",
+    "Encoding and validating video"
+  ],
+  "wallSecondsForGraph" : 203.0981090068817
+}

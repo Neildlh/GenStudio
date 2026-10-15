@@ -1,0 +1,159 @@
+{
+ "repo": "vantagewithai/LTX-2.5-GGUF",
+ "retrieved": "2026-09-13",
+ "sha": "9a5c1bed3ff27b5e5d055fc04e3ae884381c2343",
+ "gated": false,
+ "private": false,
+ "license": "other",
+ "license_name": "ltx-2-community-license-agreement",
+ "license_link": "https://github.com/Lightricks/LTX-2/blob/main/LICENSE.md",
+ "pipeline_tag": "image-to-video",
+ "lastModified": "2026-08-13T14:32:29.000Z",
+ "files": [
+  {
+   "path": ".gitattributes",
+   "size": 3727,
+   "sha256": null
+  },
+  {
+   "path": "README.md",
+   "size": 27516,
+   "sha256": null
+  },
+  {
+   "path": "dev/ltx-2.5-22b-dev-transformer-Q2_K.gguf",
+   "size": 12125172096,
+   "sha256": "08ba7ba24b7a2eb2a1902e9a2d1c910ceb3cd2830a7084ea89df1a56c34b2e80"
+  },
+  {
+   "path": "dev/ltx-2.5-22b-dev-transformer-Q3_K_M.gguf",
+   "size": 12923897216,
+   "sha256": "651538f518ccfde3025bd274da00cbc0b99ab6179f79a09ed8ce1f49dff67a2c"
+  },
+  {
+   "path": "dev/ltx-2.5-22b-dev-transformer-Q3_K_S.gguf",
+   "size": 12649891200,
+   "sha256": "643314b248eb6abee0909927dc9c32438d60191c1f76b997c4fe0d645c673876"
+  },
+  {
+   "path": "dev/ltx-2.5-22b-dev-transformer-Q4_0.gguf",
+   "size": 15241666944,
+   "sha256": "74c0558b982d8839ec03479f3422bac4560ea400f82131897d3a4332f1ad52d1"
+  },
+  {
+   "path": "dev/ltx-2.5-22b-dev-transformer-Q4_1.gguf",
+   "size": 15525249408,
+   "sha256": "fb07b448430f73d66f9364cb69c58eafa406528f41a0ab1fe2e2b8f2ba3bcc79"
+  },
+  {
+   "path": "dev/ltx-2.5-22b-dev-transformer-Q4_K_M.gguf",
+   "size": 15687639424,
+   "sha256": "41546ab47a8ad033b99875207cf386b062732d95fca0b4c9e124b14d4baaa378"
+  },
+  {
+   "path": "dev/ltx-2.5-22b-dev-transformer-Q4_K_S.gguf",
+   "size": 15327650176,
+   "sha256": "c13d6a0a53dda5f854b8c3fdf0d4fccaaa58382ca2419b48e7cc15f569cfb6cc"
+  },
+  {
+   "path": "dev/ltx-2.5-22b-dev-transformer-Q5_0.gguf",
+   "size": 15976604032,
+   "sha256": "872b51046c77064c28bd89ed886f986d91c1aaff8d328a37e0a70f5bffac3c36"
+  },
+  {
+   "path": "dev/ltx-2.5-22b-dev-transformer-Q5_1.gguf",
+   "size": 16260186496,
+   "sha256": "1ee99faac66f1e64de1d3ae78a14b44c99d66be48c1b2e07a7b5525c57a36f6c"
+  },
+  {
+   "path": "dev/ltx-2.5-22b-dev-transformer-Q5_K_M.gguf",
+   "size": 18116119936,
+   "sha256": "02aece985d2bcb1dd5921c2eca596e3dbe9798d3608b4e9c0358f255528a8f0c"
+  },
+  {
+   "path": "dev/ltx-2.5-22b-dev-transformer-Q5_K_S.gguf",
+   "size": 15892717952,
+   "sha256": "0cd40d8c44eec645a9db4edc082ba6b2606196fa3cf3969857330f3fa0659fd8"
+  },
+  {
+   "path": "dev/ltx-2.5-22b-dev-transformer-Q6_K.gguf",
+   "size": 18624033152,
+   "sha256": "664012544b98acbdf61dff98814e28a6885dad3152910d61e955cdfdd12eefa5"
+  },
+  {
+   "path": "dev/ltx-2.5-22b-dev-transformer-Q8_0.gguf",
+   "size": 23604666752,
+   "sha256": "10d4f7bd4da14e95f963f7878b9367fd10eb2d19adc456ba50291ba5bb060057"
+  },
+  {
+   "path": "distilled/ltx-2.5-22b-distilled-transformer-Q2_K.gguf",
+   "size": 12125172096,
+   "sha256": "a91e2a1f527a8791668de0fcc00178a0eb7bb2b47439810845fadbc72efa148d"
+  },
+  {
+   "path": "distilled/ltx-2.5-22b-distilled-transformer-Q3_K_M.gguf",
+   "size": 12923897216,
+   "sha256": "7015dc7dd64d7938531b044a8577c88a8e6ccd0b8047cac94123c06bdc863d0d"
+  },
+  {
+   "path": "distilled/ltx-2.5-22b-distilled-transformer-Q3_K_S.gguf",
+   "size": 12649891200,
+   "sha256": "ffcd5b3e0e3f99eb5bbaf2636d6de6e550fcbd4c15b83091682627fee52b3c78"
+  },
+  {
+   "path": "distilled/ltx-2.5-22b-distilled-transformer-Q4_0.gguf",
+   "size": 15241666944,
+   "sha256": "c8daacd387f03db24017bd5a4c77209abd50fc35d00d62f907f0c52048ce40bc"
+  },
+  {
+   "path": "distilled/ltx-2.5-22b-distilled-transformer-Q4_1.gguf",
+   "size": 15525249408,
+   "sha256": "52934d8815168a62d555c94df1c7821c89c2f2519a0b293a61b4b1f0580953b2"
+  },
+  {
+   "path": "distilled/ltx-2.5-22b-distilled-transformer-Q4_K_M.gguf",
+   "size": 15687639424,
+   "sha256": "8954332873a705cf1a980a188ace1e0fa015fc84422d2a4a4948df6a629977a7"
+  },
+  {
+   "path": "distilled/ltx-2.5-22b-distilled-transformer-Q4_K_S.gguf",
+   "size": 15327650176,
+   "sha256": "73cf89811345c1d567510a225443970d997743b71f96f9e5313c221798b9ec54"
+  },
+  {
+   "path": "distilled/ltx-2.5-22b-distilled-transformer-Q5_0.gguf",
+   "size": 15976604032,
+   "sha256": "9c948eddbce1d9e64f10e528302fa61640f2340a43a34d49936aa2f293af33c6"
+  },
+  {
+   "path": "distilled/ltx-2.5-22b-distilled-transformer-Q5_1.gguf",
+   "size": 16260186496,
+   "sha256": "aca65f076ea367babf29daf56af3f7ba8718c357ff05ac505092cb011c83f71e"
+  },
+  {
+   "path": "distilled/ltx-2.5-22b-distilled-transformer-Q5_K_M.gguf",
+   "size": 18116119936,
+   "sha256": "156b941d4dd3cabc3a904bf618fc363fc4405ee80a71c199bfa82daf7595cadb"
+  },
+  {
+   "path": "distilled/ltx-2.5-22b-distilled-transformer-Q5_K_S.gguf",
+   "size": 15892717952,
+   "sha256": "c2aec0123378273d0c4f59381e88b16614c0ae67b90cc7d50ba96dba2d6da0fb"
+  },
+  {
+   "path": "distilled/ltx-2.5-22b-distilled-transformer-Q6_K.gguf",
+   "size": 18624033152,
+   "sha256": "8f5b37075c05efd033e51e061d468eb0b632a3ccab7d399f3d3bd8c273aa6ffe"
+  },
+  {
+   "path": "distilled/ltx-2.5-22b-distilled-transformer-Q8_0.gguf",
+   "size": 23604666752,
+   "sha256": "e268b018768e00fa987c128d76384f487f9cf2ac3e3bddb077b979224ded467a"
+  },
+  {
+   "path": "workflows/Vantage-LTX2.5-distilled.json",
+   "size": 123319,
+   "sha256": null
+  }
+ ]
+}

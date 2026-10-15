@@ -1,0 +1,19 @@
+{
+ "repo": "Comfy-Org/z_image_turbo",
+ "retrieved": "2026-10-14",
+ "sha": "6fc90a3b1b653e935a0d175e260736de25b84df5",
+ "gated": false,
+ "private": false,
+ "license": "apache-2.0",
+ "license_name": null,
+ "license_link": null,
+ "pipeline_tag": null,
+ "files": [
+  {
+   "path": "split_files/vae/ae.safetensors",
+   "size": 335304388,
+   "sha256": "afc8e28272cd15db3919bacdb6918ce9c1ed22e96cb12c4d5ed0fba823529e38"
+  }
+ ],
+ "note": "ae.safetensors has the same SHA-256 as the FLUX.1 autoencoder documented by the pinned stable-diffusion.cpp z_image.md, which links the gated black-forest-labs/FLUX.1-schnell copy."
+}

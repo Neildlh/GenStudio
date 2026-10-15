@@ -1,0 +1,19 @@
+{
+  "repo": "mlx-community/gemma-3-12b-it-4bit",
+  "sha": "86cc6a8dedbc456dd0e4af01a9d09f396f77e558",
+  "gated": false,
+  "files": [
+    {"path":"added_tokens.json","size":35,"sha256":"50b2f405ba56a26d4913fd772089992252d7f942123cc0a034d96424221ba946"},
+    {"path":"chat_template.json","size":1615,"sha256":"fe16baf728db49457cde32802cd7efc0ac8a7a9877dbe22fe3322b2d9dc6ccd9"},
+    {"path":"config.json","size":1141,"sha256":"73ed96a3f1d596fcf3c07f17ed7e4358fd99be688c97da45f2464fd48dd069ed"},
+    {"path":"generation_config.json","size":192,"sha256":"e04ecb65db447404710114fb282baaac482d22a95e2244ecaab428b81672ba78"},
+    {"path":"model-00001-of-00002.safetensors","size":5367455313,"sha256":"995cbd05b7bfd8f5ab5307b476eb5496b5ec3f5256a9dd26366236ce8816c93f"},
+    {"path":"model-00002-of-00002.safetensors","size":2661219935,"sha256":"8b7af7eb5ff32109fc65cbcd0af5b8016ac0de46df17f40705f043f899495333"},
+    {"path":"model.safetensors.index.json","size":108605,"sha256":"788cc42a1a92835df62d9a3791f47105f63504c7c404637a73288e9b11bc7b82"},
+    {"path":"preprocessor_config.json","size":570,"sha256":"f688d6bb20c5017601c4011de7ca656da8485b540b05013efdaf986c0fcc918d"},
+    {"path":"special_tokens_map.json","size":662,"sha256":"2f7b0adf4fb469770bb1490e3e35df87b1dc578246c5e7e6fc76ecf33213a397"},
+    {"path":"tokenizer.json","size":33384568,"sha256":"4667f2089529e8e7657cfb6d1c19910ae71ff5f28aa7ab2ff2763330affad795"},
+    {"path":"tokenizer.model","size":4689074,"sha256":"1299c11d7cf632ef3b4e11937501358ada021bbdf7c47638d13c0ee982f2e79c"},
+    {"path":"tokenizer_config.json","size":1157007,"sha256":"0d95398b39395e5cfb290683a78f3fb0551223c672d8b033333c1a5307473760"}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "repo": "city96/Wan2.1-FLF2V-14B-720P-gguf",
+  "sha": "0fef557a0a13cbe66000526d2161436e693de93a",
+  "gated": false,
+  "files": [
+    {
+      "path": "wan2.1-flf2v-14b-720p-Q4_K_M.gguf",
+      "size": 11343816128,
+      "sha256": "7652d7d8b0795009ff21ed83d806af762aae8a8faa8640dd07b3a67e4dfab445"
+    }
+  ]
+}

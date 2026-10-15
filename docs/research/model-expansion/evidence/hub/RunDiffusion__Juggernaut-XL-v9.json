@@ -1,0 +1,12 @@
+{
+  "repo": "RunDiffusion/Juggernaut-XL-v9",
+  "sha": "cf419233522daa0b9ea36c3aff98fa2cab1fb0fb",
+  "gated": false,
+  "files": [
+    {
+      "path": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "size": 7105348188,
+      "sha256": "c9e3e68f89b8e38689e1097d4be4573cf308de4e3fd044c64ca697bdb4aa8bca"
+    }
+  ]
+}

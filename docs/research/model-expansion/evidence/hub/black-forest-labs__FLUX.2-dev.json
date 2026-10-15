@@ -1,0 +1,209 @@
+{
+ "repo": "black-forest-labs/FLUX.2-dev",
+ "retrieved": "2026-09-13",
+ "sha": "26afe3a78bb242c0a8bb181dcc8937bb16e5c66c",
+ "gated": "auto",
+ "private": false,
+ "license": "other",
+ "license_name": "flux-non-commercial-license",
+ "license_link": null,
+ "pipeline_tag": "image-to-image",
+ "lastModified": "2026-02-17T15:56:06.000Z",
+ "files": [
+  {
+   "path": ".gitattributes",
+   "size": 1867,
+   "sha256": null
+  },
+  {
+   "path": "LICENSE.md",
+   "size": 18158,
+   "sha256": null
+  },
+  {
+   "path": "README.md",
+   "size": 9439,
+   "sha256": null
+  },
+  {
+   "path": "ae.safetensors",
+   "size": 336211292,
+   "sha256": "868fe7b343cc8f3a19dbcfcafbc3d5f888802be3f89bd81b65b3621a066ce8f3"
+  },
+  {
+   "path": "flux2-dev.safetensors",
+   "size": 64446596128,
+   "sha256": "6159a3f19f829c8e84ba6e9996b7afaf7c0a5f3428677f5b37445778a320d275"
+  },
+  {
+   "path": "model_index.json",
+   "size": 431,
+   "sha256": null
+  },
+  {
+   "path": "scheduler/scheduler_config.json",
+   "size": 486,
+   "sha256": null
+  },
+  {
+   "path": "teaser_editing.png",
+   "size": 11257468,
+   "sha256": "c6c1aa92b4b4a3b61f43c42e3d7aa0a6c29d1a6ce150b0a17282a40ec119acdc"
+  },
+  {
+   "path": "teaser_generation.png",
+   "size": 23264407,
+   "sha256": "4df742c27729c240828ca676401f9bbee20ce1baa1b8868b7e50ead7f837d61a"
+  },
+  {
+   "path": "text_encoder/config.json",
+   "size": 1216,
+   "sha256": null
+  },
+  {
+   "path": "text_encoder/generation_config.json",
+   "size": 155,
+   "sha256": null
+  },
+  {
+   "path": "text_encoder/model-00001-of-00010.safetensors",
+   "size": 4883550696,
+   "sha256": "91831c2ce219df0ce63bc33c6249e5cb01db8d93816bcebf975f1c406286520e"
+  },
+  {
+   "path": "text_encoder/model-00002-of-00010.safetensors",
+   "size": 4781593336,
+   "sha256": "8ffe80706a66b2f5ef1fb058806ccf09f124ec4ad38af7a377e44ab1ee2fd664"
+  },
+  {
+   "path": "text_encoder/model-00003-of-00010.safetensors",
+   "size": 4886472224,
+   "sha256": "99ec66e891f9563f568734eadfc5b7701e04620e8e163d4d5755277a3b50cf2f"
+  },
+  {
+   "path": "text_encoder/model-00004-of-00010.safetensors",
+   "size": 4781593376,
+   "sha256": "e1df1527b12b1eb5cbd9a50914f9e6eb24e885ec830a3c16b5eed6ad0b53a396"
+  },
+  {
+   "path": "text_encoder/model-00005-of-00010.safetensors",
+   "size": 4781593368,
+   "sha256": "3556ac03f47c24eb8ad27c237e25baad639c651d9596fd72cb1523137bf56163"
+  },
+  {
+   "path": "text_encoder/model-00006-of-00010.safetensors",
+   "size": 4886472248,
+   "sha256": "2c41e6f80f2b5ca384ce703eac048a13daf2aff689c3acca66a8943f45338aae"
+  },
+  {
+   "path": "text_encoder/model-00007-of-00010.safetensors",
+   "size": 4781593376,
+   "sha256": "62a725f154f6ba942a36b5cc450db2b2df32f434e3224558c789bc04fa05fd36"
+  },
+  {
+   "path": "text_encoder/model-00008-of-00010.safetensors",
+   "size": 4781593368,
+   "sha256": "3a1a6ac77e6434418bb7273b68a7b3534fed5217c990061c92a8f990dd6ab20e"
+  },
+  {
+   "path": "text_encoder/model-00009-of-00010.safetensors",
+   "size": 4886472248,
+   "sha256": "e1fffc9bb2b77d4d2382c1bd9053e9d017741d67ca00cc6f77034a294f2f5cfd"
+  },
+  {
+   "path": "text_encoder/model-00010-of-00010.safetensors",
+   "size": 4571866320,
+   "sha256": "116ef7ae6fa0fd46b478324e4aa6a49f448afed900ca9f71d4fbd3d02289bbd4"
+  },
+  {
+   "path": "text_encoder/model.safetensors.index.json",
+   "size": 57944,
+   "sha256": null
+  },
+  {
+   "path": "tokenizer/chat_template.jinja",
+   "size": 2670,
+   "sha256": null
+  },
+  {
+   "path": "tokenizer/preprocessor_config.json",
+   "size": 700,
+   "sha256": null
+  },
+  {
+   "path": "tokenizer/processor_config.json",
+   "size": 189,
+   "sha256": null
+  },
+  {
+   "path": "tokenizer/special_tokens_map.json",
+   "size": 21449,
+   "sha256": null
+  },
+  {
+   "path": "tokenizer/tokenizer.json",
+   "size": 17078037,
+   "sha256": "b76085f9923309d873994d444989f7eb6ec074b06f25b58f1e8d7b7741070949"
+  },
+  {
+   "path": "tokenizer/tokenizer_config.json",
+   "size": 198120,
+   "sha256": null
+  },
+  {
+   "path": "transformer/config.json",
+   "size": 440,
+   "sha256": null
+  },
+  {
+   "path": "transformer/diffusion_pytorch_model-00001-of-00007.safetensors",
+   "size": 9935797200,
+   "sha256": "9d9b85f75f72fb17c7d29dacf7c430e924da93122d578a559a36a7635e153714"
+  },
+  {
+   "path": "transformer/diffusion_pytorch_model-00002-of-00007.safetensors",
+   "size": 9890181048,
+   "sha256": "86adf6f41474b00bd57afbb29a09f008be7d6af8ae914956585ba5bc6bf97c28"
+  },
+  {
+   "path": "transformer/diffusion_pytorch_model-00003-of-00007.safetensors",
+   "size": 9814681480,
+   "sha256": "a14e26e8f305dd26d7881f333e6e6ce5b562cbb55282538f46d38e1ff2715179"
+  },
+  {
+   "path": "transformer/diffusion_pytorch_model-00004-of-00007.safetensors",
+   "size": 9814681536,
+   "sha256": "5c4f38976fd8d7e5fb2d4cd20562d74eebba3264566987e3ef938d807c75be90"
+  },
+  {
+   "path": "transformer/diffusion_pytorch_model-00005-of-00007.safetensors",
+   "size": 9814681536,
+   "sha256": "4d7a74d916fc22117cde8bad76aa4b561e6dc92368cddc23bdae06dbc586ad95"
+  },
+  {
+   "path": "transformer/diffusion_pytorch_model-00006-of-00007.safetensors",
+   "size": 9814681536,
+   "sha256": "08f3ad03610651f9d630177ac3a4770d532fa72d788d3b36c39a0301b1595447"
+  },
+  {
+   "path": "transformer/diffusion_pytorch_model-00007-of-00007.safetensors",
+   "size": 5361898792,
+   "sha256": "789b9bacb607e9b97597f77c86056fa6cbb747c2a6016588e6e196814b5f9733"
+  },
+  {
+   "path": "transformer/diffusion_pytorch_model.safetensors.index.json",
+   "size": 35785,
+   "sha256": null
+  },
+  {
+   "path": "vae/config.json",
+   "size": 770,
+   "sha256": null
+  },
+  {
+   "path": "vae/diffusion_pytorch_model.safetensors",
+   "size": 336213556,
+   "sha256": "d64f3a68e1cc4f9f4e29b6e0da38a0204fe9a49f2d4053f0ec1fa1ca02f9c4b5"
+  }
+ ]
+}
