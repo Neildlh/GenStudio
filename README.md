@@ -8,6 +8,10 @@ The answer is a creator-oriented canvas with explicit model compatibility, local
 
 > **Source-release status:** This is a free, source-first technical preview. It contains the macOS app source, tests, and documentation, but it deliberately does **not** contain model weights or the large local-inference runtime. A fresh clone can compile and run the test suite; generation requires a future, independently reviewed runtime bootstrap. See the [release guide](docs/OPEN_SOURCE_RELEASE.md).
 
+![GenStudio's Start Video Ad workflow canvas, connecting still prompts, motion prompts, image generation, clips, and assembly](docs/images/start-video-ad-workflow.png)
+
+*A real Start Video Ad workflow in GenStudio: prompts and directed motion feed local image/video nodes, then flow into assembly and social delivery.*
+
 ## What GenStudio does
 
 - builds visual text, image, and video workflows from typed, named nodes;
@@ -15,6 +19,25 @@ The answer is a creator-oriented canvas with explicit model compatibility, local
 - keeps project files, run history, takes, artifacts, and generation provenance locally;
 - combines local AI generation with deterministic image/video editing, assembly, captions, end cards, voiceover, and social export;
 - makes model/task readiness visible instead of silently changing the requested model or falling back to a cloud service.
+
+## Built for visual workflow authoring
+
+GenStudio is not just a list of generators. Its canvas is designed to make the creative intent and the path from input to export understandable at a glance.
+
+- **Image Prompt** turns an idea into an image-ready prompt with the controls relevant to the chosen image route.
+- **Video Prompt** turns a shot idea into a directed motion prompt: action, camera move, focus, look, pace, and sound are explicit instead of buried in a paragraph.
+- **Prompt Enhancer** sits between a rough prompt and its destination. It uses a local model to tailor the wording to an image, image-to-video, text-to-video, or voiceover task while retaining the original creative intent.
+- **Typed image and video nodes** make media flow visible. Named ports, reference sockets, ordered repeatable inputs, and output fan-out prevent silent mismatches.
+- **Organise Nodes** lays out a selected flow or an entire workflow into readable rows and columns without discarding the graph's connections.
+- **Production nodes** carry work through to delivery: image generation, image-to-video, text-to-video, frame extraction, upscaling, interpolation, stitching, captions, end cards, voiceover, and social export.
+
+The [node reference](docs/NODE_REFERENCE.md) explains all 49 current node kinds, their inputs, outputs, and what each one is for.
+
+## Local model library, not a black box
+
+The Models view reports what is installed, what each route can do on this Mac, its capability evidence, storage requirements, and whether it is a fast draft, a final-quality option, or not suitable. It keeps local execution explicit rather than silently substituting a cloud provider or another model.
+
+![GenStudio's local model library showing the compact creative core and installed local routes](docs/images/local-model-library.png)
 
 ## Why it exists
 
