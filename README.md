@@ -158,3 +158,7 @@ This repository is a source-first technical preview. Contribution, support, secu
 Version `0.1.0` build `1` is configured in `project.yml`. Debug and local Release packaging are supported. Release enables Hardened Runtime and bundles the pinned runtime, but Developer ID signing and notarization still require a Developer ID Application certificate and notary credentials. App Sandbox is currently disabled.
 
 Last reviewed against source and tests: 18 September 2026.
+
+---
+
+<p align="center"><sub>Made by Neil de la Harpe · <a href="https://skilld.design/?utm_source=github&utm_medium=readme&utm_campaign=genstudio">Skilld Design</a></sub></p>
